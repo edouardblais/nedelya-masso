@@ -1,2 +1,3 @@
-# nedelya-masso
-A pwebsite for Nedelya Savcheva, professional massotherapist 
+# Info
+
+Un site web pour ma bonne amie Nedelya Savcheva, massotherapeute de feu.
