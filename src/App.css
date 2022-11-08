@@ -1,5 +1,19 @@
-.appBox {
-  display:flex;
-  flex-direction: column;
+body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+
+#root {
+  display:grid;
+  grid-template-rows: 10vh 90vh;
+  grid-template-columns: 100vw;
+  grid-template-areas: 
+      "topnav"
+      "content"
 }
 
