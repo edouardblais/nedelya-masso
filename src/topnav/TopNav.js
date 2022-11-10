@@ -17,6 +17,7 @@ const TopNav = () => {
     const [contactFocus , setContactFocus] = useState(false);
 
     const goToHome = () => {
+        activateHome();
         navigate('/')
     }
 
@@ -88,7 +89,7 @@ const TopNav = () => {
                 <div className="top-nav-bottom-box">
                     <ul className="top-nav-links">
                         <Link to='en'>
-                            <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Accueil</li>
+                            <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Home</li>
                         </Link>
                         <Link to='en/about'>
                             <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>About</li>
