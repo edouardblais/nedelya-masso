@@ -1,3 +1,7 @@
+html {
+  font-size: 12px;
+}
+
 body {
   margin:0;
   padding:0;
@@ -6,11 +10,13 @@ body {
   height: 100vh;
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
+  background-color: #fafaf9;
+  color: #171717;
 }
 
 #root {
   display:grid;
-  grid-template-rows: 10vh 90vh;
+  grid-template-rows: 25vh 75vh;
   grid-template-columns: 100vw;
   grid-template-areas: 
       "topnav"

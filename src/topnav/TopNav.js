@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from 'react-router-dom';
 import './TopNav.css';
+import topNavLogo from '../img/topNavLogo.png';
+import facebook from '../img/facebook.png';
+import instagram from '../img/instagram.png';
 
 const TopNav = () => {
     const navigate = useNavigate();
@@ -72,50 +75,70 @@ const TopNav = () => {
     if (english) {
         return (
             <div className='top-nav-box'>
-                <h1 onClick={goToHome}>Nedelya Savcheva</h1>
-                <ul className="top-nav-links">
-                    <Link to='en'>
-                        <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Accueil</li>
-                    </Link>
-                    <Link to='en/about'>
-                        <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>About</li>
-                    </Link>
-                    <Link to='en/services'>
-                        <li className={servicesFocus? 'active-nav' : ''} onClick={activateServices}>Services</li>
-                    </Link>
-                    <Link to='en/shop'>
-                        <li className={shopFocus? 'active-nav' : ''} onClick={activateShop}>Shop</li>
-                    </Link>
-                    <Link to='en/contact'>
-                        <li className={contactFocus? 'active-nav' : ''} onClick={activateContact}>Reservation</li>
-                    </Link>
-                </ul>
-                <button onClick={chooseLanguage}>Francais</button>
+                <div className="top-nav-top-box">
+                    <div className="top-nav-socialmedia-box">
+                        <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png" src={instagram} alt='instagram link'/></a>
+                        <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png"src={facebook} alt='facebook link'/></a>
+                    </div>
+                    <img src={topNavLogo} onClick={goToHome} alt='top nav logo' className="top-nav-logo"/>
+                    <div className="top-nav-button-box">
+                        <button onClick={chooseLanguage} className='top-nav-button'>Fr</button>
+                    </div>
+                </div>
+                <div className="top-nav-bottom-box">
+                    <ul className="top-nav-links">
+                        <Link to='en'>
+                            <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Accueil</li>
+                        </Link>
+                        <Link to='en/about'>
+                            <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>About</li>
+                        </Link>
+                        <Link to='en/services'>
+                            <li className={servicesFocus? 'active-nav' : ''} onClick={activateServices}>Services</li>
+                        </Link>
+                        <Link to='en/shop'>
+                            <li className={shopFocus? 'active-nav' : ''} onClick={activateShop}>Shop</li>
+                        </Link>
+                        <Link to='en/contact'>
+                            <li className={contactFocus? 'active-nav' : ''} onClick={activateContact}>Reservation</li>
+                        </Link>
+                    </ul>
+                </div>
             </div>
         )
     }
 
     return (
         <div className='top-nav-box'>
-            <h1 onClick={goToHome}>Nedelya Savcheva</h1>
-            <ul className="top-nav-links">
-                <Link to=''>
-                    <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Accueil</li>
-                </Link>
-                <Link to='fr/a-propos'>
-                    <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>A Propos</li>
-                </Link>
-                <Link to='fr/services'>
-                    <li className={servicesFocus? 'active-nav' : ''} onClick={activateServices}>Services</li>
-                </Link>
-                <Link to='fr/boutique'>
-                    <li className={shopFocus? 'active-nav' : ''} onClick={activateShop}>Boutique</li>
-                </Link>
-                <Link to='fr/contact'>
-                    <li className={contactFocus? 'active-nav' : ''} onClick={activateContact}>Reservation</li>
-                </Link>
-            </ul>
-            <button onClick={chooseLanguage}>English</button>
+            <div className="top-nav-top-box">
+                <div className="top-nav-socialmedia-box">
+                    <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png" src={instagram} alt='instagram link'/></a>
+                    <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png" src={facebook} alt='facebook link'/></a>
+                </div>
+                <img src={topNavLogo} onClick={goToHome} alt='top nav logo' className="top-nav-logo"/>
+                <div className="top-nav-button-box">
+                    <button onClick={chooseLanguage} className='top-nav-button'>En</button>
+                </div>
+            </div>
+            <div className="top-nav-bottom-box">
+                <ul className="top-nav-links">
+                    <Link to=''>
+                        <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Accueil</li>
+                    </Link>
+                    <Link to='fr/a-propos'>
+                        <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>A Propos</li>
+                    </Link>
+                    <Link to='fr/services'>
+                        <li className={servicesFocus? 'active-nav' : ''} onClick={activateServices}>Services</li>
+                    </Link>
+                    <Link to='fr/boutique'>
+                        <li className={shopFocus? 'active-nav' : ''} onClick={activateShop}>Boutique</li>
+                    </Link>
+                    <Link to='fr/contact'>
+                        <li className={contactFocus? 'active-nav' : ''} onClick={activateContact}>Reservation</li>
+                    </Link>
+                </ul>
+            </div>
         </div>
     )
 }

@@ -1,11 +1,7 @@
 .top-nav-box {
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items: center;
-    justify-content:space-between;
-    background-color: #1e293b;
-    color: #cbd5e1;
-    padding:1%;
     grid-area: topnav;
 }
 
@@ -20,24 +16,76 @@
     font-size: 1.5rem;
 }
 
+.top-nav-top-box, top-nav-bottom-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.top-nav-top-box {
+    gap:3vw;
+}
+
+.top-nav-bottom-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:1vw;
+}
+
+.top-nav-logo {
+    height: 20vh;
+    width: auto;
+}
+
+.top-nav-socialmedia-box {
+    margin:auto;
+}
+
+.top-nav-socialmedia-png {
+    filter: invert(0%) sepia(9%) saturate(699%) hue-rotate(320deg) brightness(83%) contrast(82%);
+}
+
+.top-nav-socialmedia-png:hover {
+    filter: invert(28%) sepia(83%) saturate(1370%) hue-rotate(176deg) brightness(89%) contrast(98%);
+    cursor: pointer;
+}
+
+.top-nav-button-box {
+    margin:auto;
+}
+
+.top-nav-button {
+    background-color: #d4d4d8;
+    border: none;
+    outline: none;
+    padding:1.5vh;
+    font-size: 1.1rem;
+}
+
+.top-nav-button:hover {
+    cursor: pointer;
+    background-color: #0369a1;
+}
+
 h1 {
     font-size: 2.5rem;
 }
 
 h1:hover {
     cursor: pointer;
-    color: #f9fafb;
+    color: #0369a1;
 }
 
 a {
     text-decoration: none;
-    color:#cbd5e1;
+    color:#171717;
   }
 
 a:hover {
-    color: #f9fafb;
+    color: #0369a1;
 }
 
 .active-nav {
-    border-bottom: 2px solid #f9fafb;
+    border-bottom: 2px solid #0369a1;
 }
