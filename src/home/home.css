@@ -1,0 +1,51 @@
+.home-box {
+    display:flex;
+    flex-direction: column;
+    min-width: 100vw;
+    padding: 1vw;
+}
+
+.overview-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1vw;
+    gap: 10vw;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    gap:1vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image {
+    max-width: 20vw;
+    height: auto;
+}
+
+.home-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.home-btn {
+    border: 2px solid #fb923c;
+    border-radius: 1rem;
+    padding: 1vh;
+    color: #fb923c;
+    font-weight: 400;
+    font-size: 1.2rem;
+    background-color: #fafaf9;
+    transition: background-color .5s ease-in .05s;
+    transition: color .5s ease-out .05s;
+}
+
+.home-btn:hover {
+    font-weight: 700;
+    background-color: #fb923c;
+    color: #fafafa;
+    cursor: pointer;
+}

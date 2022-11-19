@@ -127,7 +127,7 @@ const TopNav = () => {
                         <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Accueil</li>
                     </Link>
                     <Link to='fr/a-propos'>
-                        <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>A Propos</li>
+                        <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>À Propos</li>
                     </Link>
                     <Link to='fr/services'>
                         <li className={servicesFocus? 'active-nav' : ''} onClick={activateServices}>Services</li>
@@ -136,7 +136,7 @@ const TopNav = () => {
                         <li className={shopFocus? 'active-nav' : ''} onClick={activateShop}>Boutique</li>
                     </Link>
                     <Link to='fr/contact'>
-                        <li className={contactFocus? 'active-nav' : ''} onClick={activateContact}>Reservation</li>
+                        <li className={contactFocus? 'active-nav' : ''} onClick={activateContact}>Réservation</li>
                     </Link>
                 </ul>
             </div>

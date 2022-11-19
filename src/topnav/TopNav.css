@@ -21,6 +21,7 @@
     flex-direction: row;
     justify-content: center;
     border-bottom:1px solid #d4d4d8;
+    min-width: 100vw;
 }
 
 .top-nav-top-box {
