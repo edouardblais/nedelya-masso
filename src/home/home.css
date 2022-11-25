@@ -1,4 +1,5 @@
 .home-box {
+    grid-area: content;
     display:flex;
     flex-direction: column;
     min-width: 100vw;
@@ -8,7 +9,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10vw;
+    gap: 7vw;
     padding: 1.5vw 0 0 0;
 }
 
@@ -22,7 +23,7 @@
 
 .text-box-skala {
     position: absolute;
-    left:25%;
+    left:20%;
     top:30%;
 }
 
@@ -42,7 +43,7 @@
     min-width: 100vw;
     min-height: 50vh;
     overflow: hidden;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: 50%;
     background-clip: border-box;
@@ -55,12 +56,10 @@
 
 .skala {
     background-image: url('../img/skalaontherockthin.jpg');
-    background-position-x: left 25%;
 }
 
 .nedclimb {
     background-image: url('../img/nedclimbcropped.jpg');
-    background-position-x: left 5%;
 }
 
 .home-image {
@@ -73,7 +72,7 @@
 }
 
 .home-text {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     font-weight: 400;
     margin:0;
 }
@@ -84,7 +83,7 @@
     padding: 1vh;
     color: #fb923c;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     background-color: #fafaf9;
     transition: background-color .5s ease-in .05s;
     transition: color .5s ease-out .05s;

@@ -1,0 +1,42 @@
+.about-box {
+    grid-area: content;
+    display:flex;
+    flex-direction: column;
+    min-width: 100vw;
+}
+
+.about-title-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-name, .about-title {
+    margin:0;
+}
+
+.about-name {
+    font-size: 2.5rem;
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.about-text-box {
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap:1.5vh;
+    justify-content: center;
+    align-items: center;
+    text-justify: auto;
+    text-align: justify;
+}
+
+.about-text {
+    font-size: 1.6rem;
+    margin:0;
+}
