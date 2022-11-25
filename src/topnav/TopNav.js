@@ -18,7 +18,7 @@ const TopNav = () => {
 
     const goToHome = () => {
         activateHome();
-        navigate('/')
+        navigate('/nenelya-masso')
     }
 
     const activateHome = () => {
@@ -68,7 +68,7 @@ const TopNav = () => {
             activateHome();
         } else {
             setEnglish(true);
-            navigate('/en');
+            navigate('/nedelya-masso/en');
             activateHome();
         }
     }
