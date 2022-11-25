@@ -9,13 +9,13 @@
     flex-direction: row;
     justify-content: center;
     gap: 10vw;
-    padding: 2vw 0 0 0;
+    padding: 1.5vw 0 0 0;
 }
 
-.text-box, .text-box-skala {
+.text-box, .text-box-skala, .text-box-nedclimb {
     display: flex;
     flex-direction: column;
-    gap:1vh;
+    gap:1.5vh;
     justify-content: center;
     align-items: center;
 }
@@ -26,25 +26,41 @@
     top:30%;
 }
 
+.text-box-nedclimb {
+    position:absolute;
+    left:60%;
+    top:30%;
+}
+
 .image-box {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.image-box-stretch-skala {
+.image-box-stretch {
     min-width: 100vw;
     min-height: 50vh;
     overflow: hidden;
-    background-image: url('../img/skalaontherockthin.jpg');
-    background-size:cover;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
     background-clip: border-box;
     background-origin: border-box;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     position: relative;
+}
+
+.skala {
+    background-image: url('../img/skalaontherockthin.jpg');
     background-position-x: left 25%;
+}
+
+.nedclimb {
+    background-image: url('../img/nedclimbcropped.jpg');
+    background-position-x: left 5%;
 }
 
 .home-image {
@@ -59,6 +75,7 @@
 .home-text {
     font-size: 1.6rem;
     font-weight: 400;
+    margin:0;
 }
 
 .home-btn {
