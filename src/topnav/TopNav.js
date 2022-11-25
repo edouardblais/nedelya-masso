@@ -88,19 +88,19 @@ const TopNav = () => {
                 </div>
                 <div className="top-nav-bottom-box">
                     <ul className="top-nav-links">
-                        <Link to='en'>
+                        <Link to='nedelya-masso/en'>
                             <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Home</li>
                         </Link>
-                        <Link to='en/about'>
+                        <Link to='nedelya-masso/en/about'>
                             <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>About</li>
                         </Link>
-                        <Link to='en/services'>
+                        <Link to='nedelya-masso/en/services'>
                             <li className={servicesFocus? 'active-nav' : ''} onClick={activateServices}>Services</li>
                         </Link>
-                        <Link to='en/shop'>
+                        <Link to='nedelya-masso/en/shop'>
                             <li className={shopFocus? 'active-nav' : ''} onClick={activateShop}>Shop</li>
                         </Link>
-                        <Link to='en/contact'>
+                        <Link to='nedelya-masso/en/contact'>
                             <li className={contactFocus? 'active-nav' : ''} onClick={activateContact}>Reservation</li>
                         </Link>
                     </ul>
@@ -123,19 +123,19 @@ const TopNav = () => {
             </div>
             <div className="top-nav-bottom-box">
                 <ul className="top-nav-links">
-                    <Link to=''>
+                    <Link to='nedelya-masso'>
                         <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Accueil</li>
                     </Link>
-                    <Link to='fr/a-propos'>
+                    <Link to='nedelya-masso/fr/a-propos'>
                         <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>À Propos</li>
                     </Link>
-                    <Link to='fr/services'>
+                    <Link to='nedelya-masso/fr/services'>
                         <li className={servicesFocus? 'active-nav' : ''} onClick={activateServices}>Services</li>
                     </Link>
-                    <Link to='fr/boutique'>
+                    <Link to='nedelya-masso/fr/boutique'>
                         <li className={shopFocus? 'active-nav' : ''} onClick={activateShop}>Boutique</li>
                     </Link>
-                    <Link to='fr/contact'>
+                    <Link to='nedelya-masso/fr/contact'>
                         <li className={contactFocus? 'active-nav' : ''} onClick={activateContact}>Réservation</li>
                     </Link>
                 </ul>
