@@ -14,16 +14,16 @@ const APropos = () => {
                         <h3 className='about-name'>Nedelya Savcheva</h3>
                         <h4 className='about-title'>Masso-kinesithérapeuthe</h4>
                     </div>
-                    <p className='about-text'>Nedelya est une masso-kinésithérapeute diplômée de l’Académie de massage scientifique. 
-                                                 Elle cumule 4 années d’expérience et pratique depuis 2018. Étant une passionnée d’escalade,
-                                                 et après avoir obtenu son diplôme de praticienne en massothérapie, 
-                                                 elle a décidé de se spécialiser en masso-kinesitherapie volet sportif afin de mieux comprendre 
-                                                 et cerner les besoins des athlètes.
+                    <p className='about-text'>
+                        Diplômée de l’Académie de massage scientifique, Nedelya est une masso-kinésithérapeute  
+                        pratiquant depuis 2018. Étant une passionnée d’escalade et désirant mieux comprendre les besoins des athlètes,
+                        Nedelya s'est spécialisé en masso-kinesitherapie volet sportif.
                     </p>
-                    <p className='about-text'>Sa soif de connaissance et son désir d’apporter un traitement optimal à ses clients,
-                                                l’ont poussée à cumuler plus de 200h de formation continue à l’institut de massothérapie Kiné-Concept - Guijek.
-                                                Aujourd’hui, Nedelya combine ses deux passions et pratique dans deux centres d’escalade dans la région de Montréal,
-                                                soit Café Bloc et Hook Bouldering.
+                    <p className='about-text'>
+                        Sa soif de connaissance et son désir d’apporter un traitement optimal à ses clients
+                        l’ont poussé à cumuler plus de 200 heures de formation continue à l’institut de massothérapie Kiné-Concept - Guijek.
+                        Aujourd’hui, Nedelya combine ses deux grandes passions en pratiquant dans deux centres d’escalade de la région de Montréal,
+                        soit le Café Bloc et le Hook Bouldering.
                     </p>
                 </div>
             </div>

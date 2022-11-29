@@ -3,6 +3,11 @@
     display:flex;
     flex-direction: column;
     min-width: 100vw;
+    box-sizing: border-box;
+}
+
+.with-padding {
+    padding: 1.5vw 0 1.5vw 0;
 }
 
 .overview-box {
@@ -10,7 +15,6 @@
     flex-direction: row;
     justify-content: center;
     gap: 7vw;
-    padding: 1.5vw 0 0 0;
 }
 
 .text-box, .text-box-skala, .text-box-nedclimb {

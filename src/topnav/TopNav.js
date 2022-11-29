@@ -64,7 +64,7 @@ const TopNav = () => {
     const chooseLanguage = () => {
         if (english) {
             setEnglish(false);
-            navigate('/')
+            navigate('/nedelya-masso')
             activateHome();
         } else {
             setEnglish(true);
@@ -78,8 +78,8 @@ const TopNav = () => {
             <div className='top-nav-box'>
                 <div className="top-nav-top-box">
                     <div className="top-nav-socialmedia-box">
-                        <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png" src={instagram} alt='instagram link'/></a>
-                        <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png"src={facebook} alt='facebook link'/></a>
+                        <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>
+                        <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png blue-hover"src={facebook} alt='facebook link'/></a>
                     </div>
                     <img src={topNavLogo} onClick={goToHome} alt='top nav logo' className="top-nav-logo"/>
                     <div className="top-nav-button-box">
@@ -113,8 +113,8 @@ const TopNav = () => {
         <div className='top-nav-box'>
             <div className="top-nav-top-box">
                 <div className="top-nav-socialmedia-box">
-                    <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png" src={instagram} alt='instagram link'/></a>
-                    <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png" src={facebook} alt='facebook link'/></a>
+                    <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>
+                    <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png blue-hover" src={facebook} alt='facebook link'/></a>
                 </div>
                 <img src={topNavLogo} onClick={goToHome} alt='top nav logo' className="top-nav-logo"/>
                 <div className="top-nav-button-box">

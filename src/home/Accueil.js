@@ -14,7 +14,7 @@ const Accueil = () => {
                     </div>
                 </div>
             </div>
-            <div className='overview-box'>
+            <div className='overview-box with-padding'>
                 <div className='text-box'>
                     <p className='home-text'>Peu importe votre bobo, Ned peut vous aider.</p>
                     <button className='home-btn'>SERVICES</button>
@@ -31,7 +31,7 @@ const Accueil = () => {
                     </div>
                 </div>
             </div>
-            <div className='overview-box'>
+            <div className='overview-box with-padding'>
                 <div className='image-box'>
                     <img src={Nedso} alt='Ned' className='home-image'/>
                 </div>

@@ -3,6 +3,7 @@
     display:flex;
     flex-direction: column;
     min-width: 100vw;
+    padding: 1.5vw 0 0 0;
 }
 
 .about-title-box {
@@ -39,4 +40,34 @@
 .about-text {
     font-size: 1.6rem;
     margin:0;
+}
+
+.know-more-box, .know-more-sub-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.know-more-box {
+    padding: 1.5vw 0 1.5vw 0;
+    gap:1.5vh;
+    background-color: #f4f4f5;
+    margin-top:1.5vw;
+}
+
+.know-more-sub-box {
+    gap:.5vh;
+}
+
+.about-know-more-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin:0;
+}
+
+.about-know-more-sub-title {
+    font-size:1.8rem;
+    margin:0;
+    font-weight: 200;
 }
