@@ -17,7 +17,6 @@ body {
 
 #root {
   display:grid;
-  grid-template-rows: 25vh 75vh;
   grid-template-columns: 100vw;
   grid-template-areas: 
       "topnav"

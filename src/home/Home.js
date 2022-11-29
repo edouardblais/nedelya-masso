@@ -3,6 +3,8 @@ import './home.css';
 import Nedso from '../img/nedso.jpg';
 import Nedmass from '../img/nedmass.jpg';
 import { useNavigate } from 'react-router-dom';
+import facebook from '../img/facebook.png';
+import instagram from '../img/instagram.png';
 
 const Home = () => {
     const navigate = useNavigate();
@@ -56,6 +58,16 @@ const Home = () => {
                 <div className='text-box'>
                     <p className='home-text'>Ned is pro. Hire Ned.</p>
                     <button className='home-btn' onClick={goToAbout}>KNOW MORE</button>
+                </div>
+            </div>
+            <div className='know-more-box'>
+                <div className="top-nav-socialmedia-box">
+                        <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>
+                        <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png blue-hover"src={facebook} alt='facebook link'/></a>
+                </div>
+                <div className='know-more-sub-box'>
+                    <p className='about-text'>(514) 582-4130</p>
+                    <a href = "mailto: massotherapie.nedelya@gmail.com" className='about-text'>massotherapie.nedelya@gmail.com</a>
                 </div>
             </div>
         </div>
