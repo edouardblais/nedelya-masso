@@ -9,67 +9,22 @@ const TopNav = () => {
     const navigate = useNavigate();
 
     const [english, setEnglish] = useState(false);
-
-    const [homeFocus, setHomeFocus] = useState(true);
-    const [aboutFocus, setAboutFocus] = useState(false);
-    const [servicesFocus, setServicesFocus] = useState(false);
-    const [shopFocus, setShopFocus] = useState(false);
-    const [contactFocus , setContactFocus] = useState(false);
-
+  
     const goToHome = () => {
-        activateHome();
-        navigate('/nenelya-masso')
-    }
-
-    const activateHome = () => {
-        setAboutFocus(false);
-        setServicesFocus(false);
-        setShopFocus(false);
-        setContactFocus(false)
-        setHomeFocus(true)
-    }
-
-    const activateAbout = () => {
-        setServicesFocus(false);
-        setShopFocus(false);
-        setContactFocus(false)
-        setHomeFocus(false)
-        setAboutFocus(true);
-    }
-
-    const activateServices = () => {
-        setShopFocus(false);
-        setContactFocus(false)
-        setHomeFocus(false)
-        setAboutFocus(false);
-        setServicesFocus(true);
-    }
-
-    const activateShop = () => {
-        setContactFocus(false)
-        setHomeFocus(false)
-        setAboutFocus(false);
-        setServicesFocus(false);
-        setShopFocus(true);
-    }
-
-    const activateContact = () => {
-        setHomeFocus(false)
-        setAboutFocus(false);
-        setServicesFocus(false);
-        setShopFocus(false);
-        setContactFocus(true);
+        if (english) {
+            navigate('/nedelya-masso/en')
+        } else {
+            navigate('/nedelya-masso');
+        }
     }
 
     const chooseLanguage = () => {
         if (english) {
             setEnglish(false);
             navigate('/nedelya-masso')
-            activateHome();
         } else {
             setEnglish(true);
             navigate('/nedelya-masso/en');
-            activateHome();
         }
     }
 
@@ -89,19 +44,19 @@ const TopNav = () => {
                 <div className="top-nav-bottom-box">
                     <ul className="top-nav-links">
                         <Link to='nedelya-masso/en'>
-                            <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Home</li>
+                            <li>Home</li>
                         </Link>
                         <Link to='nedelya-masso/en/about'>
-                            <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>About</li>
+                            <li>About</li>
                         </Link>
                         <Link to='nedelya-masso/en/services'>
-                            <li className={servicesFocus? 'active-nav' : ''} onClick={activateServices}>Services</li>
+                            <li>Services</li>
                         </Link>
                         <Link to='nedelya-masso/en/shop'>
-                            <li className={shopFocus? 'active-nav' : ''} onClick={activateShop}>Shop</li>
+                            <li>Shop</li>
                         </Link>
                         <Link to='nedelya-masso/en/contact'>
-                            <li className={contactFocus? 'active-nav' : ''} onClick={activateContact}>Reservation</li>
+                            <li>Reservation</li>
                         </Link>
                     </ul>
                 </div>
@@ -124,19 +79,19 @@ const TopNav = () => {
             <div className="top-nav-bottom-box">
                 <ul className="top-nav-links">
                     <Link to='nedelya-masso'>
-                        <li className={homeFocus? 'active-nav' : ''} onClick={activateHome}>Accueil</li>
+                        <li>Accueil</li>
                     </Link>
                     <Link to='nedelya-masso/fr/a-propos'>
-                        <li className={aboutFocus? 'active-nav' : ''} onClick={activateAbout}>À Propos</li>
+                        <li>À Propos</li>
                     </Link>
                     <Link to='nedelya-masso/fr/services'>
-                        <li className={servicesFocus? 'active-nav' : ''} onClick={activateServices}>Services</li>
+                        <li>Services</li>
                     </Link>
                     <Link to='nedelya-masso/fr/boutique'>
-                        <li className={shopFocus? 'active-nav' : ''} onClick={activateShop}>Boutique</li>
+                        <li>Boutique</li>
                     </Link>
                     <Link to='nedelya-masso/fr/contact'>
-                        <li className={contactFocus? 'active-nav' : ''} onClick={activateContact}>Réservation</li>
+                        <li>Réservation</li>
                     </Link>
                 </ul>
             </div>

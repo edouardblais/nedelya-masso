@@ -2,22 +2,40 @@ import React from 'react';
 import './home.css';
 import Nedso from '../img/nedso.jpg';
 import Nedmass from '../img/nedmass.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+    const navigate = useNavigate();
+
+    const goToAbout = () => {
+        navigate('/nedelya-masso/en/about')
+    }
+
+    const goToServices = () => {
+        navigate('/nedelya-masso/en/services')
+    }
+
+    const goToReservation = () => {
+        navigate('/nedelya-masso/en/contact')
+    }
+
+    const goToShop = () => {
+        navigate('/nedelya-masso/en/shop')
+    }
     return (
         <div className='home-box'>
             <div className='overview-box'>
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
                         <p className='home-text'>Massotherapy for athletes by an athlete</p>
-                        <button className='home-btn'>BOOK NOW</button>
+                        <button className='home-btn' onClick={goToReservation}>BOOK NOW</button>
                     </div>
                 </div>
             </div>
             <div className='overview-box with-padding'>
                 <div className='text-box'>
                     <p className='home-text'>Whatever your need, Ned can help you.</p>
-                    <button className='home-btn'>SERVICES</button>
+                    <button className='home-btn' onClick={goToServices}>SERVICES</button>
                 </div>
                 <div className='image-box'>
                     <img src={Nedmass} alt='massaging a client' className='home-image'/>
@@ -27,7 +45,7 @@ const Home = () => {
                 <div className='image-box-stretch skala'>
                     <div className='text-box-skala'>
                         <p className='home-text'>Recommended products</p>
-                        <button className='home-btn'>SHOP</button>
+                        <button className='home-btn' onClick={goToShop}>SHOP</button>
                     </div>
                 </div>
             </div>
@@ -37,7 +55,7 @@ const Home = () => {
                 </div>
                 <div className='text-box'>
                     <p className='home-text'>Ned is pro. Hire Ned.</p>
-                    <button className='home-btn'>KNOW MORE</button>
+                    <button className='home-btn' onClick={goToAbout}>KNOW MORE</button>
                 </div>
             </div>
         </div>

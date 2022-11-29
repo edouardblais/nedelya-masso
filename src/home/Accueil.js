@@ -2,22 +2,41 @@ import React from 'react';
 import './home.css';
 import Nedso from '../img/nedso.jpg';
 import Nedmass from '../img/nedmass.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const Accueil = () => {
+    const navigate = useNavigate();
+
+    const goToAbout = () => {
+        navigate('/nedelya-masso/fr/a-propos')
+    }
+
+    const goToServices = () => {
+        navigate('/nedelya-masso/fr/services')
+    }
+
+    const goToReservation = () => {
+        navigate('/nedelya-masso/fr/contact')
+    }
+
+    const goToShop = () => {
+        navigate('/nedelya-masso/fr/boutique')
+    }
+
     return (
         <div className='home-box'>
             <div className='overview-box'>
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
                         <p className='home-text'>La massothérapie pour les athlètes par une athlète</p>
-                        <button className='home-btn'>RÉSERVEZ MAINTENANT</button>
+                        <button className='home-btn' onClick={goToReservation}>RÉSERVEZ MAINTENANT</button>
                     </div>
                 </div>
             </div>
             <div className='overview-box with-padding'>
                 <div className='text-box'>
                     <p className='home-text'>Peu importe votre bobo, Ned peut vous aider.</p>
-                    <button className='home-btn'>SERVICES</button>
+                    <button className='home-btn' onClick={goToServices}>SERVICES</button>
                 </div>
                 <div className='image-box'>
                     <img src={Nedmass} alt='massaging a client' className='home-image'/>
@@ -27,7 +46,7 @@ const Accueil = () => {
                 <div className='image-box-stretch skala'>
                     <div className='text-box-skala'>
                         <p className='home-text'>Produits recommandés</p>
-                        <button className='home-btn'>BOUTIQUE</button>
+                        <button className='home-btn' onClick={goToShop}>BOUTIQUE</button>
                     </div>
                 </div>
             </div>
@@ -37,7 +56,7 @@ const Accueil = () => {
                 </div>
                 <div className='text-box'>
                     <p className='home-text'>Ned est pro. Engage Ned.</p>
-                    <button className='home-btn'>EN SAVOIR PLUS</button>
+                    <button className='home-btn' onClick={goToAbout}>EN SAVOIR PLUS</button>
                 </div>
             </div>
         </div>
