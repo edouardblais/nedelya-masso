@@ -1,0 +1,27 @@
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    grid-area:content;
+    gap:2vh;
+}
+
+.contact-image {
+    max-width: 40vw;
+    height: auto;
+}
+
+.ned-reservation-box {
+    padding: 1.5vw 0 1.5vw 0;
+    gap:1.5vh;
+    background-color: #fdba74;
+    margin-top:1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-background {
+    background-color: #fdba74;
+    padding:2vh;
+}

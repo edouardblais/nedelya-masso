@@ -52,7 +52,7 @@
 }
 
 .top-nav-socialmedia-png {
-    filter: invert(0%) sepia(9%) saturate(699%) hue-rotate(320deg) brightness(83%) contrast(82%);
+    filter: invert(100%) sepia(7%) saturate(5605%) hue-rotate(180deg) brightness(101%) contrast(70%);
 }
 
 .blue-hover:hover {
@@ -75,11 +75,12 @@
     outline: none;
     padding:1.5vh;
     font-size: 1.1rem;
+    border-radius: .25rem;
 }
 
 .top-nav-button:hover {
     cursor: pointer;
-    background-color: #0369a1;
+    background-color: #fb923c;
 }
 
 h1 {
