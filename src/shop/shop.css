@@ -1,0 +1,79 @@
+.shop-box {
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 1.5vw 0 1.5vw 0;
+    gap:5vw;
+}
+
+.shop-sub-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skalahand, .skalacb {
+    height: auto;
+}
+
+.skalahand {
+    width: 35vw;;
+}
+
+.skalacb {
+    width:30vw;
+}
+
+.skala-logo {
+    width: 5vw;
+    height: auto;
+}
+
+.shop-image-box-left {
+    position: relative;
+    object-fit: cover;
+    top:50px;
+    z-index:10;
+
+}
+
+.shop-image-box-right {
+    position: relative;
+    object-fit: cover;
+    top:-15%;
+    z-index:11;
+
+}
+
+.shop-text-box-right, .shop-text-box-left {
+    max-width: 20vw;
+    max-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(253, 186, 116, 1);
+    color:white;
+    padding:2vw 7vw 2vw 7vw;
+    text-align: center;
+}
+
+.shop-text-box-right {
+    top:20px;
+    left:-3%;
+}
+
+.shop-text-box-left {
+    top:20px;
+    right:-3%;
+    z-index: 15;
+}
+
+.shop-link {
+    color:#60a5fa;
+}
+
+.shop-link:hover {
+    color: #0369a1;
+}
