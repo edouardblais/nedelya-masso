@@ -2,7 +2,7 @@
     display:flex;
     flex-direction: column;
     width: 100vw;
-    padding: 1.5vw 0 1.5vw 0;
+    padding: 1.5vw 0 0 0;
     gap:5vw;
 }
 
@@ -10,6 +10,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.shop-text {
+    font-size: 2.5rem;
 }
 
 .skalahand, .skalacb {
@@ -22,6 +26,10 @@
 
 .skalacb {
     width:30vw;
+}
+
+.nedmass2 {
+    width: 30vw;
 }
 
 .skala-logo {
@@ -37,37 +45,79 @@
 
 }
 
+.shop-image-box-left-alternative {
+    position: relative;
+    object-fit: cover;
+    top:-10%;
+    left:-2%;
+    z-index:10;
+
+}
+
 .shop-image-box-right {
     position: relative;
     object-fit: cover;
-    top:-15%;
+    top:-2%;
     z-index:11;
 
 }
 
-.shop-text-box-right, .shop-text-box-left {
+.shop-text-box-right, .shop-text-box-left, .shop-text-box-right-alternative {
     max-width: 20vw;
-    max-height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: rgba(253, 186, 116, 1);
     color:white;
-    padding:2vw 7vw 2vw 7vw;
+    padding:1vw 5vw 1vw 5vw;
     text-align: center;
 }
 
 .shop-text-box-right {
     top:20px;
     left:-3%;
+    background-color: #fdba74;
+    max-height:25vh;
 }
 
 .shop-text-box-left {
-    top:20px;
-    right:-3%;
+    top:20%;
+    right:-2%;
     z-index: 15;
+    background-color: #fdba74;
+    max-height:20vh;
+}
+
+.shop-text-box-right-alternative {
+    background-color:#60a5fa ;
+    top:20%;
+    left:-3%;
+    max-height:35vh;
+}
+
+@media (max-width: 1200px) {
+    .shop-text {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .shop-text {
+        font-size:1.8rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .shop-text {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .shop-text {
+        font-size: 1.1rem;
+    }
 }
 
 .shop-link {
@@ -76,4 +126,12 @@
 
 .shop-link:hover {
     color: #0369a1;
+}
+
+.shop-link-alternative {
+    color:#fdba74;
+}
+
+.shop-link-alternative:hover {
+    color: #fb923c;
 }
