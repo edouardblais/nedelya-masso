@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nedelya-masso/static/css/main.739597ac.css",
-    "main.js": "/nedelya-masso/static/js/main.483c8c69.js",
+    "main.css": "/nedelya-masso/static/css/main.38f2cf6d.css",
+    "main.js": "/nedelya-masso/static/js/main.6f4d773d.js",
     "static/media/skalahand.jpeg": "/nedelya-masso/static/media/skalahand.9a29e31980f1faae7010.jpeg",
     "static/media/skalaontherockthin.jpg": "/nedelya-masso/static/media/skalaontherockthin.24c0472bb348824d6262.jpg",
     "static/media/cafebloc.png": "/nedelya-masso/static/media/cafebloc.7ada1ec0d2731c3f3341.png",
@@ -14,11 +14,11 @@
     "static/media/skalacb.jpg": "/nedelya-masso/static/media/skalacb.d9b66470d155058d3ca5.jpg",
     "static/media/topNavLogo.png": "/nedelya-masso/static/media/topNavLogo.c4f94dec111e2b907476.png",
     "index.html": "/nedelya-masso/index.html",
-    "main.739597ac.css.map": "/nedelya-masso/static/css/main.739597ac.css.map",
-    "main.483c8c69.js.map": "/nedelya-masso/static/js/main.483c8c69.js.map"
+    "main.38f2cf6d.css.map": "/nedelya-masso/static/css/main.38f2cf6d.css.map",
+    "main.6f4d773d.js.map": "/nedelya-masso/static/js/main.6f4d773d.js.map"
   },
   "entrypoints": [
-    "static/css/main.739597ac.css",
-    "static/js/main.483c8c69.js"
+    "static/css/main.38f2cf6d.css",
+    "static/js/main.6f4d773d.js"
   ]
 }
