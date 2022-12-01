@@ -69,7 +69,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    color:white;
     padding:1vw 5vw 1vw 5vw;
     text-align: center;
 }
@@ -90,7 +89,7 @@
 }
 
 .shop-text-box-right-alternative {
-    background-color:#60a5fa ;
+    background-color:#93c5fd ;
     top:20%;
     left:-3%;
     max-height:35vh;
@@ -122,6 +121,7 @@
 
 .shop-link {
     color:#60a5fa;
+    font-weight: 400;
 }
 
 .shop-link:hover {
@@ -129,9 +129,10 @@
 }
 
 .shop-link-alternative {
-    color:#fdba74;
+    color:#f97316;
+    font-weight: 400;
 }
 
 .shop-link-alternative:hover {
-    color: #fb923c;
+    color: #ea580c;
 }

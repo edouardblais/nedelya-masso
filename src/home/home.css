@@ -88,9 +88,9 @@
     color: #fb923c;
     font-weight: 400;
     font-size: 1.8rem;
-    background-color: #fafaf9;
+    background-color: white;
     transition: background-color .5s ease-in .05s;
-    transition: color .5s ease-out .05s;
+    transition: color .5s ease-in .05s;
 }
 
 .home-btn:hover {

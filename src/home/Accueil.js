@@ -26,7 +26,7 @@ const Accueil = () => {
     }
 
     return (
-        <div className='home-box'>
+        <main className='home-box'>
             <div className='overview-box'>
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
@@ -61,7 +61,7 @@ const Accueil = () => {
                     <button className='home-btn' onClick={goToAbout}>EN SAVOIR PLUS</button>
                 </div>
             </div>
-            <div className='know-more-box'>
+            <footer className='know-more-box'>
                 <div className="top-nav-socialmedia-box">
                         <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>
                         <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png blue-hover"src={facebook} alt='facebook link'/></a>
@@ -70,8 +70,8 @@ const Accueil = () => {
                     <p className='about-text'>(514) 582-4130</p>
                     <a href = "mailto: massotherapie.nedelya@gmail.com" className='about-text'>massotherapie.nedelya@gmail.com</a>
                 </div>
-            </div>
-        </div>
+            </footer>
+        </main>
     )
 }
 

@@ -6,7 +6,7 @@ import instagram from '../img/instagram.png';
 
 const APropos = () => {
     return (
-        <div className='about-box'>
+        <main className='about-box'>
             <div className='overview-box'>
                 <div className='image-box'>
                     <img src={Nedhappy} alt='Ned' className='home-image'/>
@@ -43,7 +43,7 @@ const APropos = () => {
                     <a href = "mailto: massotherapie.nedelya@gmail.com" className='about-text'>massotherapie.nedelya@gmail.com</a>
                 </div>
             </div>
-        </div>
+        </main>
     )
 }
 

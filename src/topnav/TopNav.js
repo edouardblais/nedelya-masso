@@ -30,7 +30,7 @@ const TopNav = () => {
 
     if (english) {
         return (
-            <div className='top-nav-box'>
+            <nav aria-label='main navigation' className='top-nav-box'>
                 <div className="top-nav-top-box">
                     <div className="top-nav-socialmedia-box">
                         <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>
@@ -60,12 +60,12 @@ const TopNav = () => {
                         </Link>
                     </ul>
                 </div>
-            </div>
+            </nav>
         )
     }
 
     return (
-        <div className='top-nav-box'>
+        <nav arial-label='main navigation' className='top-nav-box'>
             <div className="top-nav-top-box">
                 <div className="top-nav-socialmedia-box">
                     <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>
@@ -95,7 +95,7 @@ const TopNav = () => {
                     </Link>
                 </ul>
             </div>
-        </div>
+        </nav>
     )
 }
 

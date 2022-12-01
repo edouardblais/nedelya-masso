@@ -9,7 +9,7 @@ import instagram from '../img/instagram.png';
 
 const Shop = () => {
     return (
-        <div className='shop-box'>
+        <main className='shop-box'>
             <div className='shop-sub-box'>
                 <div className='shop-image-box-left'>
                     <img src={skalaHand} alt='skala in hands' className='skalahand'/>
@@ -34,7 +34,7 @@ const Shop = () => {
                     <p className='shop-text'>Give Nedelya as a gift! Gift certificats are available for massages of 60 or 90 minutes. Contact <Link className='shop-link-alternative' to='../nedelya-masso/fr/contact'>Nedelya</Link> to get some now!</p>
                 </div>
             </div>
-            <div className='know-more-box'>
+            <footer className='know-more-box'>
                 <div className="top-nav-socialmedia-box">
                         <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>
                         <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png blue-hover"src={facebook} alt='facebook link'/></a>
@@ -43,8 +43,8 @@ const Shop = () => {
                     <p className='about-text'>(514) 582-4130</p>
                     <a href = "mailto: massotherapie.nedelya@gmail.com" className='about-text'>massotherapie.nedelya@gmail.com</a>
                 </div>
-            </div>
-        </div>
+            </footer>
+        </main>
     )
 }
 

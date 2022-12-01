@@ -7,10 +7,10 @@ import instagram from '../img/instagram.png';
 
 const ContactFr = () => {
     return (
-        <div className='contact-box'>
-            <div className='text-box orange-background'>
+        <main className='contact-box'>
+            <header className='text-box orange-background'>
                 <h2 className='home-text'>Réservez votre séance de massage avec Nedelya ici!</h2>
-            </div>
+            </header>
             <div className='overview-box with-padding'>
                 <div className='image-box'>
                     <img src={cafebloc} alt='cafe bloc location' className='contact-image'/>
@@ -46,7 +46,7 @@ const ContactFr = () => {
                     <a href = "mailto: massotherapie.nedelya@gmail.com" className='about-text'>massotherapie.nedelya@gmail.com</a>
                 </div>
             </div>
-        </div>
+        </main>
     )
 }
 

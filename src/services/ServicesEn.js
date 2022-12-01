@@ -2,9 +2,9 @@ import React from 'react';
 
 const ServicesEn = () => {
     return (
-        <div className='services-box'>
+        <main className='services-box'>
             Services En
-        </div>
+        </main>
     )
 }
 
