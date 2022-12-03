@@ -8,7 +8,7 @@ import instagram from '../img/instagram.png';
 const ContactEn = () => {
     return (
         <main className='contact-box'>
-            <header className='text-box orange-background'>
+            <header className='text-box'>
                 <h2 className='home-text'>Book your massage session with Nedelya here!</h2>
             </header>
             <div className='overview-box with-padding'>

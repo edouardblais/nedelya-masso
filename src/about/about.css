@@ -54,6 +54,7 @@
     gap:1.5vh;
     background-color: #f4f4f5;
     margin-top:1.5vw;
+    min-width: 100vw;
 }
 
 .know-more-sub-box {
