@@ -43,7 +43,7 @@ const ServicesFr = () => {
                     <p className='services-text'>
                         Le drainage lymphatique est un massage plus doux et plus lent 
                         que le massage suédois. Il est généralement pratiqué sans huile 
-                        dans le sens de la circulation lymphatique afin de stimuler les 
+                        dans le sens de la circulation lymphatique, de maniere précise et rythmée, afin de stimuler les 
                         ganglions et les vaisseaux sanguins. Il vise à aider le corps dans 
                         les processus de détoxification, de diminution de la rétention d’eau et de réduction de l’inflammation.
                     </p>

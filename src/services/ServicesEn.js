@@ -43,7 +43,7 @@ const ServicesEn = () => {
                     <p className='services-text'>
                         Lymphatic drainage is a gentler, slower massage
                         than the Swedish massage. It is generally practiced without oil
-                        in the direction of the lymphatic circulation in order to stimulate the
+                        in the direction of the lymphatic circulation, with precision and rhythm, in order to stimulate the
                         lymph nodes and blood vessels. It aims to help the body in
                         the processes of detoxifying, decreasing water retention and reducing inflammation.
                     </p>

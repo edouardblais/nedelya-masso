@@ -17,9 +17,9 @@ const APropos = () => {
                         <h4 className='about-title'>Masso-kinesithérapeuthe</h4>
                     </div>
                     <p className='about-text'>
-                        Diplômée de l’Académie de massage scientifique, Nedelya est une masso-kinésithérapeute  
+                        Diplômée de l’Académie de massage scientifique, Nedelya est une massothérapeute  
                         pratiquant depuis 2018. Étant une passionnée d’escalade et désirant mieux comprendre les besoins des athlètes,
-                        Nedelya s'est spécialisé en masso-kinesitherapie volet sportif.
+                        Nedelya s'est spécialisée en masso-kinésitherapie volet sportif.
                     </p>
                     <p className='about-text'>
                         Sa soif de connaissance et son désir d’apporter un traitement optimal à ses clients
