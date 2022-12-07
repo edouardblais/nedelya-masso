@@ -5,33 +5,43 @@ import skalaHand from '../img/skalahand.jpeg';
 import nedMass2 from '../img/nedmass2.jpg';
 import facebook from '../img/facebook.png';
 import instagram from '../img/instagram.png';
+import skalaLogo from '../img/skalasable.jpg';
 import { Link } from 'react-router-dom';
 
 const Boutique = () => {
     return (
-        <main className='shop-box'>
-            <div className='shop-sub-box'>
-                <div className='shop-image-box-left'>
-                    <img src={skalaHand} alt='skala in hands' className='skalahand'/>
+        <main className='services-box'>
+            <div className='services-sub-box'>
+                <div className='services-text-box'>
+                    <img src={skalaLogo} alt='skala logo' className='shop-logo'/>
+                    <p className='shop-text'>
+                        Produit par Nedelya, Skala est un baume réparateur dédié aux grimpeurs fait exclusivement d’ingrédients naturels
+                    </p>
                 </div>
-                <div className='shop-text-box-right'>
-                    <p className='shop-text'>Produit par Nedelya, Skala est un baume réparateur dédié aux grimpeurs fait exclusivement d’ingrédients naturels</p>
-                </div>
-            </div>
-            <div className='shop-sub-box'>
-                <div className='shop-text-box-left'>
-                    <p className='shop-text'>Procurez-vous du Skala au <a href='https://www.cafebloc.com/' className='shop-link'>Café Bloc</a> et au <a className='shop-link' href='https://www.hookbouldering.com/'>Hook Bouldering</a>, ou encore en contactant directement <Link className='shop-link' to='../nedelya-masso/fr/contact'>Nedelya</Link>!</p>
-                </div>
-                <div className='shop-image-box-right'>
-                    <img src={skalaCB} alt='skala at cafe bloc' className='skalacb'/>
+                <div className='image-box'>
+                    <img src={skalaHand} alt='skala in hands' className='shop-images'/>
                 </div>
             </div>
-            <div className='shop-sub-box'>
-                <div className='shop-image-box-left-alternative'>
-                    <img src={nedMass2} alt='nedelya massaging' className='nedmass2'/>
+            <div className='services-sub-box'>
+                <div className='image-box'>
+                    <img src={skalaCB} alt='skala on a shelf' className='shop-images'/>
                 </div>
-                <div className='shop-text-box-right-alternative'>
-                    <p className='shop-text'>Offrez Nedelya en cadeau! Des certificats-cadeaux sont disponibles pour des massages de 60 ou de 90 minutes. Contactez <Link className='shop-link-alternative' to='../nedelya-masso/fr/contact'>Nedelya</Link> pour vous en procurer!</p>
+                <div className='services-text-box'>
+                    <p className='shop-title'>Disponible en magasin!</p>
+                    <p className='shop-text'>
+                        Procurez-vous du Skala au <a href='https://www.cafebloc.com/' className='shop-link'>Café Bloc</a> et au <a className='shop-link' href='https://www.hookbouldering.com/'>Hook Bouldering</a>, ou encore en contactant directement <Link className='shop-link' to='../nedelya-masso/fr/contact'>Nedelya</Link>!
+                    </p>
+                </div>
+            </div>
+            <div className='services-sub-box'>
+                <div className='services-text-box'>
+                <p className='shop-title'>Certificats-cadeaux</p>
+                    <p className='shop-text'>
+                        Offrez Nedelya en cadeau! Des certificats-cadeaux sont disponibles pour des massages de 60 ou de 90 minutes. Contactez <Link className='shop-link-alternative' to='../nedelya-masso/fr/contact'>Nedelya</Link> pour vous en procurer!
+                    </p>
+                </div>
+                <div className='image-box'>
+                    <img src={nedMass2} alt='nedelya massaging' className='shop-images'/>
                 </div>
             </div>
             <footer className='know-more-box'>
