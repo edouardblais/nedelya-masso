@@ -3,6 +3,12 @@ html {
   overflow-x: hidden;
 }
 
+@media (max-width:600px) {
+  html {
+    font-size: 8px;
+  }
+}
+
 body {
   margin:0;
   padding:0;
