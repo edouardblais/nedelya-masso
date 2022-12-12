@@ -34,7 +34,7 @@ const ContactFr = () => {
                 </div>
             </div>
             <div className='ned-reservation-box'>
-                <div className='know-more-sub-box'>
+                <div className='text-box'>
                     <h3 className='about-know-more-title'>Sinon n'hésitez-pas à réservez directement avec Nedelya via n'importe quel des liens ci-dessous!</h3>
                 </div>
                 <div className="top-nav-socialmedia-box">

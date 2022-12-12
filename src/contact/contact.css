@@ -4,6 +4,8 @@
     grid-area:content;
     gap:2vh;
     padding: 1.5vw 0 0 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-image {

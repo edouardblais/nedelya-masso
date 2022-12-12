@@ -34,7 +34,7 @@ const ContactEn = () => {
                 </div>
             </div>
             <div className='ned-reservation-box'>
-                <div className='know-more-sub-box'>
+                <div className='text-box'>
                     <h3 className='about-know-more-title'>Or don't hesitate to book your session with Nedelya through any of the links below!</h3>
                 </div>
                 <div className="top-nav-socialmedia-box">

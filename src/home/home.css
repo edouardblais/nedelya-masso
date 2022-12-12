@@ -21,7 +21,7 @@
 @media (max-width: 600px) {
     .overview-box {
         flex-direction: column;
-        gap:3vh;
+        gap:1vh;
     }
 }
 
@@ -52,9 +52,12 @@
         top:10%;
     }
     .text-box-skala {
-        left: 70%;
+        left: 68%;
         top:5%;
         max-width: 30vw;
+    }
+    .text-box, .text-box-nedclimb, .text-box-skala {
+        gap:.5vh;
     }
 }
 

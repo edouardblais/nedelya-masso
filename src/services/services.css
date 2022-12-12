@@ -26,6 +26,19 @@
     padding: 1.5vw 0 1.5vw 0;
 }
 
+@media (max-width:600px) {
+    .services-sub-box {
+        flex-direction: column;
+    }
+    .services-text-box {
+        max-width: 70vw;
+        gap:.5vh;
+    }
+    .services-box {
+        gap:1vh;
+    }
+}
+
 .services-title {
     margin: 0;
     font-size: 2.5rem;
