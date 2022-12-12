@@ -29,6 +29,12 @@
     gap:7vw;
 }
 
+@media (max-width:600px) {
+    .top-nav-top-box {
+        gap:3vw;
+    }
+}
+
 .top-nav-bottom-box {
     display: flex;
     flex-direction: row;
@@ -41,6 +47,13 @@
 .top-nav-logo {
     height: 20vh;
     width: auto;
+}
+
+@media (max-width:600px) {
+    .top-nav-logo {
+        height: 10vh;
+        width: auto;
+    }
 }
 
 .top-nav-logo:hover {
@@ -73,14 +86,27 @@
     background-color: #d4d4d8;
     border: none;
     outline: none;
-    padding:1.5vh;
-    font-size: 1.1rem;
+    padding:1.2vh;
+    font-size: 1.4rem;
+    font-family: 'Oswald', sans-serif;
     border-radius: .25rem;
+    margin:auto;
 }
 
 .top-nav-button:hover {
     cursor: pointer;
     background-color: #fb923c;
+}
+
+@media (max-width:600px) {
+    .top-nav-socialmedia-png, .top-nav-button {
+        max-width: 7vw;
+        height: auto;
+    }
+    .top-nav-button {
+        padding:.7vh;
+        font-size: 1.2rem;
+    }
 }
 
 h1 {
