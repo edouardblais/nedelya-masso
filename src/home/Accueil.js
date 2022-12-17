@@ -30,7 +30,7 @@ const Accueil = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
-                        <p className='home-text'>La massothérapie pour les athlètes par une athlète</p>
+                        <p className='home-text white-text'>La massothérapie pour les athlètes par une athlète</p>
                         <button className='home-btn' onClick={goToReservation}>RÉSERVEZ</button>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Accueil = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch skala'>
                     <div className='text-box-skala'>
-                        <p className='home-text'>Produits recommandés</p>
+                        <p className='home-text white-text'>Produits recommandés</p>
                         <button className='home-btn' onClick={goToShop}>BOUTIQUE</button>
                     </div>
                 </div>

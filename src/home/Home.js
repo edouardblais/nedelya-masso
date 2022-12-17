@@ -29,7 +29,7 @@ const Home = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
-                        <p className='home-text'>Massotherapy for athletes by an athlete</p>
+                        <p className='home-text white-text'>Massotherapy for athletes by an athlete</p>
                         <button className='home-btn' onClick={goToReservation}>BOOK NOW</button>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const Home = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch skala'>
                     <div className='text-box-skala'>
-                        <p className='home-text'>Recommended products</p>
+                        <p className='home-text white-text'>Recommended products</p>
                         <button className='home-btn' onClick={goToShop}>SHOP</button>
                     </div>
                 </div>

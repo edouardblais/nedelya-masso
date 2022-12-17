@@ -50,6 +50,7 @@
 @media (max-width:600px) {
     .text-box-nedclimb {
         top:10%;
+        left:10%
     }
     .text-box-skala {
         left: 68%;
@@ -87,7 +88,14 @@
 }
 
 .nedclimb {
-    background-image: url('../img/nedclimbcropped.jpg');
+    background-image: url('../img/nedclimb.jpg');
+    background-position: left;
+}
+
+@media (max-width: 600px) {
+    .nedclimb {
+        background-position: 10%;
+    }
 }
 
 .home-image {
@@ -109,6 +117,10 @@
     font-size: 2.5rem;
     font-weight: 400;
     margin:0;
+}
+
+.white-text {
+    color:#fafaf9
 }
 
 @media (max-width: 600px) {
