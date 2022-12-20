@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nedelya-masso/static/css/main.b2d9afbb.css",
+    "main.css": "/nedelya-masso/static/css/main.8699b18d.css",
     "main.js": "/nedelya-masso/static/js/main.5aac01f0.js",
     "static/media/drainage.jpg": "/nedelya-masso/static/media/drainage.c80e5123458e4aff8c0c.jpg",
     "static/media/suedois.jpg": "/nedelya-masso/static/media/suedois.07c60e4a4059199d6647.jpg",
@@ -18,11 +18,11 @@
     "static/media/skalacb.jpg": "/nedelya-masso/static/media/skalacb.d9b66470d155058d3ca5.jpg",
     "static/media/topNavLogo.png": "/nedelya-masso/static/media/topNavLogo.c4f94dec111e2b907476.png",
     "index.html": "/nedelya-masso/index.html",
-    "main.b2d9afbb.css.map": "/nedelya-masso/static/css/main.b2d9afbb.css.map",
+    "main.8699b18d.css.map": "/nedelya-masso/static/css/main.8699b18d.css.map",
     "main.5aac01f0.js.map": "/nedelya-masso/static/js/main.5aac01f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2d9afbb.css",
+    "static/css/main.8699b18d.css",
     "static/js/main.5aac01f0.js"
   ]
 }
