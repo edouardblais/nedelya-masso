@@ -49,8 +49,8 @@
 
 @media (max-width:600px) {
     .text-box-nedclimb {
-        top:10%;
-        left:10%
+        top:6%;
+        left:8%
     }
     .text-box-skala {
         left: 68%;
@@ -88,7 +88,7 @@
 }
 
 .nedclimb {
-    background-image: url('../img/nedclimb.jpg');
+    background-image: url('../img/nedclimb2.jpg');
     background-position: left;
 }
 
