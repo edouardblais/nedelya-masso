@@ -3,6 +3,7 @@ import './about.css';
 import Nedhappy from '../img/nedhappy.jpg';
 import facebook from '../img/facebook.png';
 import instagram from '../img/instagram.png';
+import Reseau from '../img/reseau.jpg';
 
 const APropos = () => {
     return (
@@ -27,6 +28,9 @@ const APropos = () => {
                         Aujourd’hui, Nedelya combine ses deux grandes passions en pratiquant dans deux centres d’escalade de la région de Montréal,
                         soit le Café Bloc et le Hook Bouldering.
                     </p>
+                    <div className='image-box'>
+                        <img src={Reseau} alt='Member of Masso Network' className='home-image'/>
+                    </div>
                 </div>
             </div>
             <div className='know-more-box'>

@@ -1,6 +1,7 @@
 html {
   font-size: 12px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 @media (max-width:600px) {

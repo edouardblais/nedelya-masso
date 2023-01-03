@@ -37,7 +37,7 @@ const Shop = () => {
                 <div className='services-text-box'>
                 <p className='shop-title'>Gift certificates!</p>
                     <p className='shop-text'>
-                        Give Nedelya as a gift! Gift certificats are available for massages of 60 or 90 minutes. Contact <Link className='shop-link-alternative' to='../nedelya-masso/fr/contact'>Nedelya</Link> to get some now!
+                        Give a massage session as a gift! Gift certificats are available for massages of 60 or 90 minutes. Contact <Link className='shop-link-alternative' to='../nedelya-masso/fr/contact'>Nedelya</Link> to get some now!
                     </p>
                 </div>
                 <div className='image-box'>

@@ -29,14 +29,14 @@ const Home = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
-                        <p className='home-text white-text'>Massotherapy for athletes by an athlete</p>
+                        <p className='home-text white-text'>Massage therapy for athletes by an athlete</p>
                         <button className='home-btn' onClick={goToReservation}>BOOK NOW</button>
                     </div>
                 </div>
             </div>
             <div className='overview-box with-padding'>
                 <div className='text-box'>
-                    <p className='home-text'>Whatever your need, Ned can help you.</p>
+                    <p className='home-text'>Massage therapy tailored to your needs</p>
                     <button className='home-btn' onClick={goToServices}>SERVICES</button>
                 </div>
                 <div className='image-box'>
@@ -56,7 +56,7 @@ const Home = () => {
                     <img src={Nedso} alt='Ned' className='home-image'/>
                 </div>
                 <div className='text-box'>
-                    <p className='home-text'>Ned is pro. Hire Ned.</p>
+                    <p className='home-text'>Massage therapy tailored to your needs</p>
                     <button className='home-btn' onClick={goToAbout}>KNOW MORE</button>
                 </div>
             </div>

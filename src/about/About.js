@@ -3,6 +3,7 @@ import './about.css';
 import Nedhappy from '../img/nedhappy.jpg';
 import facebook from '../img/facebook.png';
 import instagram from '../img/instagram.png';
+import Reseau from '../img/reseau.jpg';
 
 const About = () => {
     return (
@@ -19,7 +20,7 @@ const About = () => {
                     <p className='about-text'>
                         A graduate of the Academy of Scientific Massage, Nedelya is a massage therapist
                         practicing since 2018. Being a climbing enthusiast and wishing to better understand the needs of athletes,
-                        Nedelya has specialized herself in masso-kinesitherapy for athletes.
+                        Nedelya has specialized herself in sports oriented masso-kinesitherapy.
                     </p>
                     <p className='about-text'>
                         Her thirst for knowledge and her desire to provide optimal treatments to her clients have
@@ -27,6 +28,9 @@ const About = () => {
                         Today, Nedelya combines her two great passions by practicing in two climbing centers in the Montreal area,
                         namely Café Bloc and Hook Bouldering.
                     </p>
+                    <div className='image-box'>
+                        <img src={Reseau} alt='Member of Masso Network' className='home-image'/>
+                    </div>
                 </div>
             </div>
             <div className='know-more-box'>

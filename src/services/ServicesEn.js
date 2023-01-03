@@ -10,6 +10,15 @@ const ServicesEn = () => {
     return (
         <main className='services-box'>
             <div className='services-text-box'>
+                <h2 className='services-title'>Prices</h2>
+                <p className='prices-text'>
+                    60 minutes: 80$ (+ taxes)
+                </p>
+                <p className='prices-text'>
+                    90 minutes: 105$ (+ taxes)
+                </p>
+            </div>
+            <div className='services-text-box'>
                 <h2 className='services-title'>What is kinesitherapy?</h2>
                 <p className='services-text'>
                     Kinesitherapy is the combination of massage and movement.
@@ -18,17 +27,18 @@ const ServicesEn = () => {
                      and its joints. This approach can just as well be incorporated into a treatment
                       of relaxation than in a so-called therapeutic treatment.
                 </p>
+                <a href='https://rmpq.ca/en/resources-and-training-of-therapists/recognized-disciplines/kinesitherapy/' class='home-btn'>More info</a>
             </div>
             <div className='services-sub-box'>
                 <div className='services-text-box'>
                     <p className='services-title'>Swedish Massage</p>
                     <p className='services-text'>
-                        Swedish massage consists of slow, encompassing movements using low to medium pressure.
-                        It aims to relax the first layer of muscles, increase the circulation of body fluids
-                        and provide a relaxing effect.
-                        Since Swedish massage is done on all parts of the body, it is for people
-                        who do not have specific problems and who therefore rather seek to relax their body and reduce their stress.
+                        Swedish massage consists of slow movements using low to medium pressure. 
+                        It aims to relax the first layer of muscles, increase the circulation of body fluids and provide a relaxing effect. 
+                        Since Swedish massage is done on all parts of the body, it is for people who do not have specific problems 
+                        and who therefore would rather seek to relax their body and reduce their stress.
                     </p>
+                    <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/swedish-massage/' class='home-btn'>More info</a>
                 </div>
                 <div className='image-box'>
                     <img src={suedois} alt='massage therapeuthique' className='services-image'/>
@@ -47,6 +57,7 @@ const ServicesEn = () => {
                         lymph nodes and blood vessels. It aims to help the body in
                         the processes of detoxifying, decreasing water retention and reducing inflammation.
                     </p>
+                    <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/lymphatic-draining/' class='home-btn'>More info</a>
                 </div>
             </div>
             <div className='services-sub-box'>
@@ -59,38 +70,41 @@ const ServicesEn = () => {
                         Therapeutic massage can be performed using the following procedures:
                     </p>
                     <div className='services-procedures-box'>
-                        <p className='services-text'>
-                            -Vacuotherapy (treatment with cupping)
-                        </p>
-                        <p className='services-text'>
-                            -Fasciatherapy
-                        </p>
-                        <p className='services-text'>
-                            -Integrated visceral massage (ventral massage and decongestion of the diaphragm)
-                        </p>
-                        <p className='services-text'>
-                            -Neuro-proprioceptive taping
-                        </p>
-                        <p className='services-text'>
-                            -Deep tissue massage
-                        </p>
-                        <p className='services-text'>
-                            -Releasing of trigger points
-                        </p>
+                        <div>
+                            <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/cupping-massage/' className='services-link'>
+                                -Vacuotherapy (treatment with cupping)
+                            </a>
+                        </div>
+                        <div>
+                            <p className='services-text'>
+                                -Fasciatherapy
+                            </p>
+                        </div>
+                        <div>
+                            <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/integrative-visceral-therapy-md/' className='services-link'>
+                                -Integrated visceral massage (ventral massage and decongestion of the diaphragm)
+                            </a>
+                        </div>
+                        <div>
+                            <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/neuro-proprioceptive-taping/' className='services-link'>
+                                -Neuro-proprioceptive taping
+                            </a>
+                        </div>
+                        <div>
+                            <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/deep-tissue-massage/?fbclid=IwAR01W_bhLMZdvBysP9hUJla_bQ2VQJfe4NODGj85piEh8S7hUa02lmhnbQE' className='services-link'>
+                                -Deep tissue massage
+                            </a>
+                        </div>
+                        <div>
+                            <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/trigger-points/' className='services-link'>
+                                -Releasing of trigger points
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className='image-box'>
                     <img src={therap} alt='massage therapeuthique' className='services-image'/>
                 </div>
-            </div>
-            <div className='services-text-box'>
-                <h2 className='services-title'>Prices</h2>
-                <p className='services-text'>
-                    60 minutes: 80$ (+ taxes)
-                </p>
-                <p className='services-text'>
-                    90 minutes: 105$ (+ taxes)
-                </p>
             </div>
             <footer className='know-more-box'>
                 <div className="top-nav-socialmedia-box">

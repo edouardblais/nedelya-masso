@@ -130,9 +130,9 @@
 }
 
 .home-btn {
-    border: 2px solid #fb923c;
+    border: 3px solid #fb923c;
     border-radius: 1rem;
-    padding: 1vh;
+    padding: .8vh;
     color: #fb923c;
     font-weight: 400;
     font-size: 1.8rem;

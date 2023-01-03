@@ -37,7 +37,7 @@ const Accueil = () => {
             </div>
             <div className='overview-box with-padding'>
                 <div className='text-box'>
-                    <p className='home-text'>Peu importe votre bobo, Ned peut vous aider.</p>
+                    <p className='home-text'>Massothéraphie adaptée à vos besoins</p>
                     <button className='home-btn' onClick={goToServices}>SERVICES</button>
                 </div>
                 <div className='image-box'>
@@ -57,7 +57,7 @@ const Accueil = () => {
                     <img src={Nedso} alt='Ned' className='home-image'/>
                 </div>
                 <div className='text-box'>
-                    <p className='home-text'>Ned est pro. Engage Ned.</p>
+                    <p className='home-text'>Massothéraphie adaptée à vos besoins</p>
                     <button className='home-btn' onClick={goToAbout}>EN SAVOIR PLUS</button>
                 </div>
             </div>

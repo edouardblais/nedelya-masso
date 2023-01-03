@@ -4,6 +4,7 @@
     flex-direction: column;
     min-width: 100vw;
     padding: 1.5vw 0 0 0;
+    background-color: white;
 }
 
 .about-title-box {

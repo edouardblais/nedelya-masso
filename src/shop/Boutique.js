@@ -37,7 +37,7 @@ const Boutique = () => {
                 <div className='services-text-box'>
                 <p className='shop-title'>Certificats-cadeaux</p>
                     <p className='shop-text'>
-                        Offrez Nedelya en cadeau! Des certificats-cadeaux sont disponibles pour des massages de 60 ou de 90 minutes. Contactez <Link className='shop-link-alternative' to='../nedelya-masso/fr/contact'>Nedelya</Link> pour vous en procurer!
+                        Offrez un soin en cadeau! Des certificats-cadeaux sont disponibles pour des massages de 60 ou de 90 minutes. Contactez <Link className='shop-link-alternative' to='../nedelya-masso/fr/contact'>Nedelya</Link> pour vous en procurer!
                     </p>
                 </div>
                 <div className='image-box'>

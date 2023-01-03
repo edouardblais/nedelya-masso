@@ -10,6 +10,15 @@ const ServicesFr = () => {
     return (
         <main className='services-box'>
             <div className='services-text-box'>
+                <h2 className='services-title'>Tarifs</h2>
+                <p className='prices-text'>
+                    60 minutes: 80$ (+ taxes)
+                </p>
+                <p className='prices-text'>
+                    90 minutes: 105$ (+ taxes)
+                </p>
+            </div>
+            <div className='services-text-box'>
                 <h2 className='services-title'>Qu'est-ce que la kinésithérapie?</h2>
                 <p className='services-text'>
                     La kinésithérapie est le mélange du massage et du mouvement. 
@@ -18,6 +27,7 @@ const ServicesFr = () => {
                      et de ses articulations. Cette approche peut tout aussi bien être incorporée dans un soin
                       de détente que dans un soin dit thérapeutique. 
                 </p>
+                <a href='https://rmpq.ca/ressources-et-formation-des-therapeutes/disciplines-reconnues/kinesitherapie/?fbclid=IwAR1wCA_CTycWHcpxNpZ-_a6gcRGsDn4Y61sj9y4fAJTHazVvePhCehHzESw' class='home-btn'>Plus d'info</a>
             </div>
             <div className='services-sub-box'>
                 <div className='services-text-box'>
@@ -29,6 +39,7 @@ const ServicesFr = () => {
                         Puisque le massage suédois se fait sur toutes les parties du corps, il s’adresse aux personnes 
                         n’ayant pas de problèmatiques spécifiques et qui cherchent donc plutôt à se détendre et à diminuer leur stress.
                     </p>
+                    <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/massage-suedois/' class='home-btn'>Plus d'info</a>
                 </div>
                 <div className='image-box'>
                     <img src={suedois} alt='massage therapeuthique' className='services-image'/>
@@ -47,6 +58,7 @@ const ServicesFr = () => {
                         ganglions et les vaisseaux sanguins. Il vise à aider le corps dans 
                         les processus de détoxification, de diminution de la rétention d’eau et de réduction de l’inflammation.
                     </p>
+                    <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/drainage-lymphatique/' class='home-btn'>Plus d'info</a>
                 </div>
             </div>
             <div className='services-sub-box'>
@@ -59,38 +71,41 @@ const ServicesFr = () => {
                         Le massage thérapeutique peut s’effectuer à l’aide des procédures suivantes:
                     </p>
                     <div className='services-procedures-box'>
-                        <p className='services-text'>
-                            -La vacuothérapie (traitement avec ventouses)
-                        </p>
-                        <p className='services-text'>
-                            -La fasciathérapie 
-                        </p>
-                        <p className='services-text'>
-                            -Le massage viscéral intégré (massage ventral et décongestion du diaphragme)
-                        </p>
-                        <p className='services-text'>
-                            -Le taping neuro-proprioceptif 
-                        </p>
-                        <p className='services-text'>
-                            -Le massage des tissus profonds
-                        </p>
-                        <p className='services-text'>
-                            -Le relâchement des points gachettes (Trigger points)
-                        </p>
+                        <div>
+                            <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/massage-aux-ventouses/?fbclid=IwAR14raccXf6PpEfwLFodQizn5ixvFUXnsEO7dEzXm1Mo1PlwgC74Y4evhTs' className='services-link'>
+                                -La vacuothérapie (traitement avec ventouses)
+                            </a>
+                        </div>
+                        <div>
+                            <a href='https://rmpq.ca/blogue/fascinants-fascias/?fbclid=IwAR0ePkHDSgh6TzbB3Cr_ewpKd5onyTwup9B1NEJBiedMIB_8mRZ1nv7o5OA' className='services-link'>
+                                -La fasciathérapie 
+                            </a>
+                        </div>
+                        <div>
+                            <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/therapie-viscerale-integree-md/' className='services-link'>
+                                -Le massage viscéral intégré (massage ventral et décongestion du diaphragme)
+                            </a>
+                        </div>
+                        <div>
+                            <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/taping-sportif/?fbclid=IwAR0HiV_8T7uIKuu_FrBh4_8t2X2SBQLTFo1Ke3vzcIt_a-KdQIXNoeUNJYg' className='services-link'>
+                                -Le taping neuro-proprioceptif 
+                            </a>
+                        </div>
+                        <div>
+                            <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/massage-tissus-profonds/' className='services-link'>
+                                -Le massage des tissus profonds
+                            </a>
+                        </div>
+                        <div>
+                            <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/points-gachettes-trigger-points/' className='services-link'>
+                                -Le relâchement des points gachettes (Trigger points)
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className='image-box'>
                     <img src={therap} alt='massage therapeuthique' className='services-image'/>
                 </div>
-            </div>
-            <div className='services-text-box'>
-                <h2 className='services-title'>Tarifs</h2>
-                <p className='services-text'>
-                    60 minutes: 80$ (+ taxes)
-                </p>
-                <p className='services-text'>
-                    90 minutes: 105$ (+ taxes)
-                </p>
             </div>
             <footer className='know-more-box'>
                 <div className="top-nav-socialmedia-box">
