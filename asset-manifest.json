@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nedelya-masso/static/css/main.8699b18d.css",
-    "main.js": "/nedelya-masso/static/js/main.5aac01f0.js",
+    "main.css": "/nedelya-masso/static/css/main.96bd1b70.css",
+    "main.js": "/nedelya-masso/static/js/main.2905aa3a.js",
     "static/media/drainage.jpg": "/nedelya-masso/static/media/drainage.c80e5123458e4aff8c0c.jpg",
     "static/media/suedois.jpg": "/nedelya-masso/static/media/suedois.07c60e4a4059199d6647.jpg",
     "static/media/therap.jpg": "/nedelya-masso/static/media/therap.90bc7d0385794de55cbf.jpg",
@@ -15,14 +15,15 @@
     "static/media/nedmass.jpg": "/nedelya-masso/static/media/nedmass.2c16edf09408f660aa86.jpg",
     "static/media/nedso.jpg": "/nedelya-masso/static/media/nedso.f4a148c1ed72779987bd.jpg",
     "static/media/nedmass2.jpg": "/nedelya-masso/static/media/nedmass2.6e886432cab51d6fdf73.jpg",
+    "static/media/reseau.jpg": "/nedelya-masso/static/media/reseau.498b1803185a9a272d35.jpg",
     "static/media/skalacb.jpg": "/nedelya-masso/static/media/skalacb.d9b66470d155058d3ca5.jpg",
     "static/media/topNavLogo.png": "/nedelya-masso/static/media/topNavLogo.c4f94dec111e2b907476.png",
     "index.html": "/nedelya-masso/index.html",
-    "main.8699b18d.css.map": "/nedelya-masso/static/css/main.8699b18d.css.map",
-    "main.5aac01f0.js.map": "/nedelya-masso/static/js/main.5aac01f0.js.map"
+    "main.96bd1b70.css.map": "/nedelya-masso/static/css/main.96bd1b70.css.map",
+    "main.2905aa3a.js.map": "/nedelya-masso/static/js/main.2905aa3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8699b18d.css",
-    "static/js/main.5aac01f0.js"
+    "static/css/main.96bd1b70.css",
+    "static/js/main.2905aa3a.js"
   ]
 }
