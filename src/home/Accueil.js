@@ -10,19 +10,19 @@ const Accueil = () => {
     const navigate = useNavigate();
 
     const goToAbout = () => {
-        navigate('/nedelya-masso/fr/a-propos')
+        navigate('/fr/a-propos')
     }
 
     const goToServices = () => {
-        navigate('/nedelya-masso/fr/services')
+        navigate('/fr/services')
     }
 
     const goToReservation = () => {
-        navigate('/nedelya-masso/fr/contact')
+        navigate('/fr/contact')
     }
 
     const goToShop = () => {
-        navigate('/nedelya-masso/fr/boutique')
+        navigate('/fr/boutique')
     }
 
     return (
