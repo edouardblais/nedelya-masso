@@ -18,16 +18,16 @@ const App = () => {
     <BrowserRouter>
       <TopNav/>
       <Routes>
-        <Route path='/nedelya-masso' element={<Accueil/>}/>
-          <Route path='/nedelya-masso/fr/a-propos' element={<APropos/>}/>
-          <Route path='/nedelya-masso/fr/services' element={<ServicesFr/>}/>
-          <Route path='/nedelya-masso/fr/contact' element={<ContactFr/>}/>
-          <Route path='/nedelya-masso/fr/boutique' element={<Boutique/>}/>
-        <Route path='/nedelya-masso/en' element={<Home/>}/>
-          <Route path='/nedelya-masso/en/about' element={<About/>}/>
-          <Route path='/nedelya-masso/en/services' element={<ServicesEn/>}/>
-          <Route path='/nedelya-masso/en/contact' element={<ContactEn/>}/>
-          <Route path='/nedelya-masso/en/shop' element={<Shop/>}/>
+        <Route path='/' element={<Accueil/>}/>
+          <Route path='/fr/a-propos' element={<APropos/>}/>
+          <Route path='/fr/services' element={<ServicesFr/>}/>
+          <Route path='/fr/contact' element={<ContactFr/>}/>
+          <Route path='/fr/boutique' element={<Boutique/>}/>
+        <Route path='/en' element={<Home/>}/>
+          <Route path='/en/about' element={<About/>}/>
+          <Route path='/en/services' element={<ServicesEn/>}/>
+          <Route path='/en/contact' element={<ContactEn/>}/>
+          <Route path='/en/shop' element={<Shop/>}/>
       </Routes>
     </BrowserRouter>
   );
