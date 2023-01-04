@@ -78,7 +78,7 @@ const TopNav = () => {
             </div>
             <div className="top-nav-bottom-box">
                 <ul className="top-nav-links">
-                    <Link to='fr'>
+                    <Link to=''>
                         <li>Accueil</li>
                     </Link>
                     <Link to='fr/a-propos'>
