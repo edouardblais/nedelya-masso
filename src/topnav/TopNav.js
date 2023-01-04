@@ -43,19 +43,19 @@ const TopNav = () => {
                 </div>
                 <div className="top-nav-bottom-box">
                     <ul className="top-nav-links">
-                        <Link to='nedelya-masso/en'>
+                        <Link to='en'>
                             <li>Home</li>
                         </Link>
-                        <Link to='nedelya-masso/en/about'>
+                        <Link to='en/about'>
                             <li>About</li>
                         </Link>
-                        <Link to='nedelya-masso/en/services'>
+                        <Link to='en/services'>
                             <li>Services</li>
                         </Link>
-                        <Link to='nedelya-masso/en/shop'>
+                        <Link to='en/shop'>
                             <li>Shop</li>
                         </Link>
-                        <Link to='nedelya-masso/en/contact'>
+                        <Link to='en/contact'>
                             <li>Reservation</li>
                         </Link>
                     </ul>
@@ -78,19 +78,19 @@ const TopNav = () => {
             </div>
             <div className="top-nav-bottom-box">
                 <ul className="top-nav-links">
-                    <Link to='nedelya-masso'>
+                    <Link to='fr'>
                         <li>Accueil</li>
                     </Link>
-                    <Link to='nedelya-masso/fr/a-propos'>
+                    <Link to='fr/a-propos'>
                         <li>À Propos</li>
                     </Link>
-                    <Link to='nedelya-masso/fr/services'>
+                    <Link to='fr/services'>
                         <li>Services</li>
                     </Link>
-                    <Link to='nedelya-masso/fr/boutique'>
+                    <Link to='fr/boutique'>
                         <li>Boutique</li>
                     </Link>
-                    <Link to='nedelya-masso/fr/contact'>
+                    <Link to='fr/contact'>
                         <li>Réservation</li>
                     </Link>
                 </ul>

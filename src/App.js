@@ -18,7 +18,7 @@ const App = () => {
     <BrowserRouter>
       <TopNav/>
       <Routes>
-        <Route path='/' element={<Accueil/>}/>
+        <Route path='/fr' element={<Accueil/>}/>
           <Route path='/fr/a-propos' element={<APropos/>}/>
           <Route path='/fr/services' element={<ServicesFr/>}/>
           <Route path='/fr/contact' element={<ContactFr/>}/>
