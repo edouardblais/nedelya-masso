@@ -12,19 +12,19 @@ const TopNav = () => {
   
     const goToHome = () => {
         if (english) {
-            navigate('/nedelya-masso/en')
+            navigate('/en')
         } else {
-            navigate('/nedelya-masso');
+            navigate('/');
         }
     }
 
     const chooseLanguage = () => {
         if (english) {
             setEnglish(false);
-            navigate('/nedelya-masso')
+            navigate('/')
         } else {
             setEnglish(true);
-            navigate('/nedelya-masso/en');
+            navigate('/en');
         }
     }
 

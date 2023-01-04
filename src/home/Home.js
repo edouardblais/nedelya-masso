@@ -10,19 +10,19 @@ const Home = () => {
     const navigate = useNavigate();
 
     const goToAbout = () => {
-        navigate('/nedelya-masso/en/about')
+        navigate('/en/about')
     }
 
     const goToServices = () => {
-        navigate('/nedelya-masso/en/services')
+        navigate('/en/services')
     }
 
     const goToReservation = () => {
-        navigate('/nedelya-masso/en/contact')
+        navigate('/en/contact')
     }
 
     const goToShop = () => {
-        navigate('/nedelya-masso/en/shop')
+        navigate('/en/shop')
     }
     return (
         <main className='home-box'>
