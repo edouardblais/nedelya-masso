@@ -10,7 +10,7 @@ const APropos = () => {
         <main className='about-box'>
             <div className='overview-box'>
                 <div className='image-box'>
-                    <img src={Nedhappy} alt='Ned' className='home-image'/>
+                    <img src={Nedhappy} alt='Ned' className='about-image'/>
                 </div>
                 <div className='about-text-box'>
                     <div className='about-title-box'>
@@ -29,14 +29,14 @@ const APropos = () => {
                         soit le Café Bloc et le Hook Bouldering.
                     </p>
                     <div className='image-box'>
-                        <img src={Reseau} alt='Member of Masso Network' className='home-image'/>
+                        <img src={Reseau} alt='Member of Masso Network' className='reseau-image'/>
                     </div>
                 </div>
             </div>
             <div className='know-more-box'>
                 <div className='know-more-sub-box'>
                     <h3 className='about-know-more-title'>Vous aimeriez en savoir plus?</h3>
-                    <h4 className='about-know-more-sub-title'>N'hésitez-pas à contacter Nedelya via n'importe quel des liens ci-dessous!</h4>
+                    <h4 className='about-know-more-sub-title'>N'hésitez-pas à contacter Nedelya!</h4>
                 </div>
                 <div className="top-nav-socialmedia-box">
                         <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>

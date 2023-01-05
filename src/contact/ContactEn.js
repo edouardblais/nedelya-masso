@@ -9,14 +9,14 @@ const ContactEn = () => {
     return (
         <main className='contact-box'>
             <header className='text-box'>
-                <h2 className='home-text'>Book your massage session with Nedelya here!</h2>
+                <h2 className='home-text'>Book your massage session with Nedelya!</h2>
             </header>
             <div className='overview-box with-padding'>
                 <div className='image-box'>
                     <img src={cafebloc} alt='cafe bloc location' className='contact-image'/>
                 </div>
                 <div className='text-box'>
-                    <p className='home-text'>Cafe Bloc</p>
+                    <p className='reserv-title'>Cafe Bloc</p>
                     <p className='about-text'>1209-1211 St Laurent Blvd, Montreal, Quebec H2X 2S6</p>
                     <p className='about-text'>(438) 794-3874</p>
                     <a className='home-btn' href='https://www.gorendezvous.com/fr/cafebloc/'>Book Now!</a>
@@ -24,7 +24,7 @@ const ContactEn = () => {
             </div>
             <div className='overview-box with-padding'>
                 <div className='text-box'>
-                    <p className='home-text'>Hook Bouldering</p>
+                    <p className='reserv-title'>Hook Bouldering</p>
                     <p className='about-text'>2101 Nobel St, Sainte-Julie, QC J3E 1Z8</p>
                     <p className='about-text'>(450) 922-7734</p>
                     <a className='home-btn' href='https://www.hookbouldering.com/services'>Book Now!</a>
@@ -35,7 +35,7 @@ const ContactEn = () => {
             </div>
             <div className='ned-reservation-box'>
                 <div className='text-box'>
-                    <h3 className='about-know-more-title'>Or don't hesitate to book your session with Nedelya through any of the links below!</h3>
+                    <h3 className='reserv-title'>...or book directly with Nedelya!</h3>
                 </div>
                 <div className="top-nav-socialmedia-box">
                         <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>

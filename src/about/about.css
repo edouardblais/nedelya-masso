@@ -4,7 +4,7 @@
     flex-direction: column;
     min-width: 100vw;
     padding: 1.5vw 0 0 0;
-    background-color: white;
+    background-color: #fafaf9;
 }
 
 .about-title-box {
@@ -12,6 +12,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.about-image {
+    max-width: 25vw;
+    height: auto;
+}
+
+.reseau-image {
+    max-width: 20vw;
+    height: auto;
+    border: .5px solid black;
 }
 
 .about-name, .about-title {
