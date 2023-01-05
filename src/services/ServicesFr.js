@@ -12,7 +12,7 @@ const ServicesFr = () => {
             <div className='services-text-box'>
                 <h2 className='services-title'>Tarifs</h2>
                 <p className='prices-text'>
-                    60 minutes: 80$ (+ taxes)test
+                    60 minutes: 80$ (+ taxes)
                 </p>
                 <p className='prices-text'>
                     90 minutes: 105$ (+ taxes)
