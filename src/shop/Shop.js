@@ -5,7 +5,7 @@ import skalaCB from '../img/skalacb.jpg';
 import skalaHand from '../img/skalahand.jpeg';
 import nedMass2 from '../img/nedmass2.jpg';
 import facebook from '../img/facebook.png';
-import skalaLogo from '../img/skalasable.jpg';
+import skalaLogo from '../img/skalaLogo2.png';
 import instagram from '../img/instagram.png';
 
 const Shop = () => {
@@ -29,7 +29,7 @@ const Shop = () => {
                 <div className='services-text-box'>
                     <p className='shop-title'>Available in store!</p>
                     <p className='shop-text'>
-                        Get Skala at <a href='https://www.cafebloc.com/' className='shop-link'>Cafe Bloc</a> and <a className='shop-link' href='https://www.hookbouldering.com/'>Hook Bouldering</a>, or simply contact <Link className='shop-link' to='../nedelya-masso/en/contact'>Nedelya</Link>!
+                        Get Skala at <a href='https://www.cafebloc.com/' className='shop-link'>Cafe Bloc</a> and <a className='shop-link' href='https://www.hookbouldering.com/'>Hook Bouldering</a>, or simply contact <Link className='shop-link' to='../en/contact'>Nedelya</Link>!
                     </p>
                 </div>
             </div>
@@ -37,7 +37,7 @@ const Shop = () => {
                 <div className='services-text-box'>
                 <p className='shop-title'>Gift certificates!</p>
                     <p className='shop-text'>
-                        Give a massage session as a gift! Gift certificats are available for massages of 60 or 90 minutes. Contact <Link className='shop-link-alternative' to='../nedelya-masso/fr/contact'>Nedelya</Link> to get some now!
+                        Give a massage session as a gift! Gift certificats are available for massages of 60 or 90 minutes. Contact <Link className='shop-link-alternative' to='../en/contact'>Nedelya</Link> to get some now!
                     </p>
                 </div>
                 <div className='image-box'>

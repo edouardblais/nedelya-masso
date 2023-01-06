@@ -50,13 +50,17 @@ const ServicesFr = () => {
                     <img src={drainage} alt='drainage lymphatique' className='services-image'/>
                 </div>
                 <div className='services-text-box'>
-                    <p className='services-title'>Drainage Lymphatique</p>
+                    <p className='services-title'>Drainage Lymphatique Manuel (DLM)</p>
                     <p className='services-text'>
-                        Le drainage lymphatique est un massage plus doux et plus lent 
-                        que le massage suédois. Il est généralement pratiqué sans huile 
-                        dans le sens de la circulation lymphatique, de maniere précise et rythmée, afin de stimuler les 
-                        ganglions et les vaisseaux sanguins. Il vise à aider le corps dans 
-                        les processus de détoxification, de diminution de la rétention d’eau et de réduction de l’inflammation.
+                        Le système lymphatique est responsable de la réponse immunitaire du corps. 
+                        Il s’occupe de drainer le liquide interstitiel et les déchets métaboliques ainsi que de transporter les hormones et les lipides. 
+                        Le DLM est un massage plus doux et plus lent que le massage suédois. 
+                        Il est généralement pratiqué sans huile dans le sens de la circulation lymphatique 
+                        (distale à proximale, à sens unique, des capillaires sanguins vers le coeur), 
+                        de manière précise et rhytmée, afin de désengorger les ganglions et vaisseaux. 
+                        Il vise à aider le corps dans son processus de désintoxication, de réduction de la rétention d’eau et de l’inflammation. 
+                        Il est idéal suite à une chirurgie, pour éviter la retention d’eau, l’enflure (oedème) ou la sensation de jambes lourdes. 
+                        En plus d’être extrêmement relaxant, les défenses immunitaires de l’organisme en bénéficient énormement.
                     </p>
                     <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/drainage-lymphatique/' class='home-btn'>Plus d'info</a>
                 </div>

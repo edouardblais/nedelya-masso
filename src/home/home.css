@@ -139,7 +139,6 @@
     font-size: 1.8rem;
     background-color: #fb923c;
     transition: background-color .3s ease-out .05s, color .3s ease-out .05s;
-    margin: auto;
     vertical-align: middle;
 }
 

@@ -5,7 +5,7 @@ import skalaHand from '../img/skalahand.jpeg';
 import nedMass2 from '../img/nedmass2.jpg';
 import facebook from '../img/facebook.png';
 import instagram from '../img/instagram.png';
-import skalaLogo from '../img/skalasable.jpg';
+import skalaLogo from '../img/skalaLogo2.png';
 import { Link } from 'react-router-dom';
 
 const Boutique = () => {
@@ -29,7 +29,7 @@ const Boutique = () => {
                 <div className='services-text-box'>
                     <p className='shop-title'>Disponible en magasin!</p>
                     <p className='shop-text'>
-                        Procurez-vous du Skala au <a href='https://www.cafebloc.com/' className='shop-link'>Café Bloc</a> et au <a className='shop-link' href='https://www.hookbouldering.com/'>Hook Bouldering</a>, ou encore en contactant directement <Link className='shop-link' to='../nedelya-masso/fr/contact'>Nedelya</Link>!
+                        Procurez-vous du Skala au <a href='https://www.cafebloc.com/' className='shop-link'>Café Bloc</a> et au <a className='shop-link' href='https://www.hookbouldering.com/'>Hook Bouldering</a>, ou encore en contactant directement <Link className='shop-link' to='../fr/contact'>Nedelya</Link>!
                     </p>
                 </div>
             </div>
@@ -37,7 +37,7 @@ const Boutique = () => {
                 <div className='services-text-box'>
                 <p className='shop-title'>Certificats-cadeaux</p>
                     <p className='shop-text'>
-                        Offrez un soin en cadeau! Des certificats-cadeaux sont disponibles pour des massages de 60 ou de 90 minutes. Contactez <Link className='shop-link-alternative' to='../nedelya-masso/fr/contact'>Nedelya</Link> pour vous en procurer!
+                        Offrez un soin en cadeau! Des certificats-cadeaux sont disponibles pour des massages de 60 ou de 90 minutes. Contactez <Link className='shop-link-alternative' to='../fr/contact'>Nedelya</Link> pour vous en procurer!
                     </p>
                 </div>
                 <div className='image-box'>

@@ -49,13 +49,17 @@ const ServicesEn = () => {
                     <img src={drainage} alt='drainage lymphatique' className='services-image'/>
                 </div>
                 <div className='services-text-box'>
-                    <p className='services-title'>Lymphatic drainage</p>
+                    <p className='services-title'>Manual Lymphatic Drainage (MLD)</p>
                     <p className='services-text'>
-                        Lymphatic drainage is a gentler, slower massage
-                        than the Swedish massage. It is generally practiced without oil
-                        in the direction of the lymphatic circulation, with precision and rhythm, in order to stimulate the
-                        lymph nodes and blood vessels. It aims to help the body in
-                        the processes of detoxifying, decreasing water retention and reducing inflammation.
+                        The lymphatic system is responsible for the body's immune response. 
+                        It is responsible for draining interstitial fluid and metabolic wastes as well as transporting hormones and lipids. 
+                        MLD is a gentler and slower form of massage compared to Swedish. 
+                        It is generally oil-free, done in the direction of the lymphatic circulation 
+                        (distal to proximal, one-way, from the blood capillaries to the heart),
+                         in a precise and rhythmic manner, in order to unclog and stimulate the lymph nodes and vessels. 
+                         It aims to help the body in its process of detoxification, and reduction of water retention and inflammation.
+                        It is ideal following a surgery, against water retention, swelling (oedema) or to counter the feeling of heavy legs. 
+                        In addition to being extremely relaxing, the body's immune defenses benefit from it enormously.
                     </p>
                     <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/lymphatic-draining/' class='home-btn'>More info</a>
                 </div>
