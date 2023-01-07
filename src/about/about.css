@@ -16,6 +16,12 @@
     margin-bottom: 1.5vw;
 }
 
+@media (max-width:600px) {
+    .about-subbox {
+        flex-direction: column;
+    }
+}
+
 .about-title-box {
     display: flex;
     flex-direction: column;
@@ -26,6 +32,12 @@
 .about-image {
     max-width: 25vw;
     height: auto;
+}
+
+@media (max-width:600px) {
+    .about-image {
+        max-width: 40vw;
+    }
 }
 
 .reseau-image {

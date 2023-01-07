@@ -56,7 +56,7 @@ const Home = () => {
                     <img src={Nedso} alt='Ned' className='home-image'/>
                 </div>
                 <div className='text-box'>
-                    <p className='home-text'>Massage therapy tailored to your needs</p>
+                    <p className='home-text'>Experience the unique blend of professionalism and warmth with Nedelya</p>
                     <button className='home-btn' onClick={goToAbout} alt='go to biography'>KNOW MORE</button>
                 </div>
             </div>

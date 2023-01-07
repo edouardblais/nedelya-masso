@@ -57,7 +57,7 @@ const Accueil = () => {
                     <img src={Nedso} alt='Nedelya' className='home-image'/>
                 </div>
                 <div className='text-box'>
-                    <p className='home-text'>Massothéraphie adaptée à vos besoins</p>
+                    <p className='home-text'>Découvrez le mélange unique de professionnalisme et de chaleur avec Nedelya</p>
                     <button className='home-btn' onClick={goToAbout} alt='aller a la biographie'>EN SAVOIR PLUS</button>
                 </div>
             </div>
