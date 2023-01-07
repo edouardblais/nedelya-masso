@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <div className='about-text-box'>
                     <div className='about-title-box'>
-                        <h3 className='about-name'>Nedelya Savcheva</h3>
+                        <h3 className='about-name'>Nedelya Savcheva test</h3>
                         <h4 className='about-title'>Masso-kinesitherapist</h4>
                     </div>
                     <p className='about-text'>
