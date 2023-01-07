@@ -11,6 +11,7 @@
 .contact-image {
     max-width: 40vw;
     height: auto;
+    border:1px solid rgb(219, 113, 0);
 }
 
 .ned-reservation-box {
@@ -21,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f5;
+    background-color: #f4f4fa;
     width: 100vw;
 }
 
@@ -30,5 +31,5 @@
     font-size: 2.5rem;
     font-weight: 400;
     margin:0;
-    color: #fb923c;
+    color: rgb(219, 113, 0);
 }

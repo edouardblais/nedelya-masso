@@ -27,7 +27,7 @@ const ServicesEn = () => {
                      and its joints. This approach can just as well be incorporated into a treatment
                       of relaxation than in a so-called therapeutic treatment.
                 </p>
-                <a href='https://rmpq.ca/en/resources-and-training-of-therapists/recognized-disciplines/kinesitherapy/' class='home-btn'>More info</a>
+                <a href='https://rmpq.ca/en/resources-and-training-of-therapists/recognized-disciplines/kinesitherapy/' className='home-btn'>More info</a>
             </div>
             <div className='services-sub-box'>
                 <div className='services-text-box'>
@@ -38,7 +38,7 @@ const ServicesEn = () => {
                         Since Swedish massage is done on all parts of the body, it is for people who do not have specific problems 
                         and who therefore would rather seek to relax their body and reduce their stress.
                     </p>
-                    <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/swedish-massage/' class='home-btn'>More info</a>
+                    <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/swedish-massage/' className='home-btn'>More info</a>
                 </div>
                 <div className='image-box'>
                     <img src={suedois} alt='massage therapeuthique' className='services-image'/>
@@ -61,7 +61,7 @@ const ServicesEn = () => {
                         It is ideal following a surgery, against water retention, swelling (oedema) or to counter the feeling of heavy legs. 
                         In addition to being extremely relaxing, the body's immune defenses benefit from it enormously.
                     </p>
-                    <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/lymphatic-draining/' class='home-btn'>More info</a>
+                    <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/lymphatic-draining/' className='home-btn'>More info</a>
                 </div>
             </div>
             <div className='services-sub-box'>
@@ -71,7 +71,7 @@ const ServicesEn = () => {
                         Therapeutic massaging addresses a particular problem,
                         either to relieve an already existing pathology, to prevent injuries
                         or to facilitate recovery following physical training.
-                        Therapeutic massage can be performed using the following procedures:
+                        Therapeutic massage can be performed using the following methods:
                     </p>
                     <div className='services-procedures-box'>
                         <div>
@@ -80,9 +80,9 @@ const ServicesEn = () => {
                             </a>
                         </div>
                         <div>
-                            <p className='services-text'>
+                            <a className='services-link' href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/fascial-therapy/'>
                                 -Fasciatherapy
-                            </p>
+                            </a>
                         </div>
                         <div>
                             <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/integrative-visceral-therapy-md/' className='services-link'>

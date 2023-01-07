@@ -24,7 +24,7 @@
 .shop-logo {
     width: 10vw;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid #ca8a04;
 }
 
 
@@ -36,19 +36,19 @@
 }
 
 .shop-link {
-    color:#60a5fa;
+    color:#0369a1;
     font-weight: 400;
 }
 
 .shop-link:hover {
-    color: #0369a1;
+    color: rgb(219, 113, 0);
 }
 
 .shop-link-alternative {
-    color:#f97316;
+    color:rgb(219, 113, 0);
     font-weight: 400;
 }
 
 .shop-link-alternative:hover {
-    color: #ea580c;
+    color: #0369a1;
 }

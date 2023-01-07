@@ -30,14 +30,14 @@ const Home = () => {
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
                         <p className='home-text white-text'>Massage therapy for athletes by an athlete</p>
-                        <button className='home-btn' onClick={goToReservation}>BOOK NOW</button>
+                        <button className='home-btn' onClick={goToReservation} alt='go to booking'>BOOK NOW</button>
                     </div>
                 </div>
             </div>
             <div className='overview-box with-padding'>
                 <div className='text-box'>
                     <p className='home-text'>Massage therapy tailored to your needs</p>
-                    <button className='home-btn' onClick={goToServices}>SERVICES</button>
+                    <button className='home-btn' onClick={goToServices} alt='go to services'>SERVICES</button>
                 </div>
                 <div className='image-box'>
                     <img src={Nedmass} alt='massaging a client' className='home-image'/>
@@ -47,7 +47,7 @@ const Home = () => {
                 <div className='image-box-stretch skala'>
                     <div className='text-box-skala'>
                         <p className='home-text white-text'>Recommended products</p>
-                        <button className='home-btn' onClick={goToShop}>SHOP</button>
+                        <button className='home-btn' onClick={goToShop} alt='go to shop'>SHOP</button>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ const Home = () => {
                 </div>
                 <div className='text-box'>
                     <p className='home-text'>Massage therapy tailored to your needs</p>
-                    <button className='home-btn' onClick={goToAbout}>KNOW MORE</button>
+                    <button className='home-btn' onClick={goToAbout} alt='go to biography'>KNOW MORE</button>
                 </div>
             </div>
             <footer className='know-more-box'>

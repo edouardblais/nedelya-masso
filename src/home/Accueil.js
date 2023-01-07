@@ -31,14 +31,14 @@ const Accueil = () => {
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
                         <p className='home-text white-text'>La massothérapie pour les athlètes par une athlète</p>
-                        <button className='home-btn' onClick={goToReservation}>RÉSERVEZ</button>
+                        <button className='home-btn' onClick={goToReservation} alt='aller aux reservations'>RÉSERVEZ</button>
                     </div>
                 </div>
             </div>
             <div className='overview-box with-padding'>
                 <div className='text-box'>
                     <p className='home-text'>Massothéraphie adaptée à vos besoins</p>
-                    <button className='home-btn' onClick={goToServices}>SERVICES</button>
+                    <button className='home-btn' onClick={goToServices} alt='aller aux services'>SERVICES</button>
                 </div>
                 <div className='image-box'>
                     <img src={Nedmass} alt='massaging a client' className='home-image'/>
@@ -48,17 +48,17 @@ const Accueil = () => {
                 <div className='image-box-stretch skala'>
                     <div className='text-box-skala'>
                         <p className='home-text white-text'>Produits recommandés</p>
-                        <button className='home-btn' onClick={goToShop}>BOUTIQUE</button>
+                        <button className='home-btn' onClick={goToShop} alt='aller a la boutique'>BOUTIQUE</button>
                     </div>
                 </div>
             </div>
             <div className='overview-box with-padding'>
                 <div className='image-box'>
-                    <img src={Nedso} alt='Ned' className='home-image'/>
+                    <img src={Nedso} alt='Nedelya' className='home-image'/>
                 </div>
                 <div className='text-box'>
                     <p className='home-text'>Massothéraphie adaptée à vos besoins</p>
-                    <button className='home-btn' onClick={goToAbout}>EN SAVOIR PLUS</button>
+                    <button className='home-btn' onClick={goToAbout} alt='aller a la biographie'>EN SAVOIR PLUS</button>
                 </div>
             </div>
             <footer className='know-more-box'>

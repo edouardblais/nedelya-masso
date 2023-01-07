@@ -9,7 +9,7 @@ const ContactFr = () => {
     return (
         <main className='contact-box'>
             <header className='text-box'>
-                <h2 className='home-text'>Réservez votre séance de massage avec Nedelya!</h2>
+                <h2 className='home-text'>Réservez votre séance de massage!</h2>
             </header>
             <div className='overview-box with-padding'>
                 <div className='image-box'>

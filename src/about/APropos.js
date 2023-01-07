@@ -8,9 +8,9 @@ import Reseau from '../img/reseau.jpg';
 const APropos = () => {
     return (
         <main className='about-box'>
-            <div className='overview-box'>
+            <div className='about-subbox'>
                 <div className='image-box'>
-                    <img src={Nedhappy} alt='Ned' className='about-image'/>
+                    <img src={Nedhappy} alt='Nedelya' className='about-image'/>
                 </div>
                 <div className='about-text-box'>
                     <div className='about-title-box'>

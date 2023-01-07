@@ -5,7 +5,7 @@ import skalaHand from '../img/skalahand.jpeg';
 import nedMass2 from '../img/nedmass2.jpg';
 import facebook from '../img/facebook.png';
 import instagram from '../img/instagram.png';
-import skalaLogo from '../img/skalaLogo2.png';
+import skalaLogo from '../img/skalasable.jpg';
 import { Link } from 'react-router-dom';
 
 const Boutique = () => {

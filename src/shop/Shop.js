@@ -5,7 +5,7 @@ import skalaCB from '../img/skalacb.jpg';
 import skalaHand from '../img/skalahand.jpeg';
 import nedMass2 from '../img/nedmass2.jpg';
 import facebook from '../img/facebook.png';
-import skalaLogo from '../img/skalaLogo2.png';
+import skalaLogo from '../img/skalasable.jpg';
 import instagram from '../img/instagram.png';
 
 const Shop = () => {

@@ -27,7 +27,7 @@ const ServicesFr = () => {
                      et de ses articulations. Cette approche peut tout aussi bien être incorporée dans un soin
                       de détente que dans un soin dit thérapeutique. 
                 </p>
-                <a href='https://rmpq.ca/ressources-et-formation-des-therapeutes/disciplines-reconnues/kinesitherapie/?fbclid=IwAR1wCA_CTycWHcpxNpZ-_a6gcRGsDn4Y61sj9y4fAJTHazVvePhCehHzESw' class='home-btn'>Plus d'info</a>
+                <a href='https://rmpq.ca/ressources-et-formation-des-therapeutes/disciplines-reconnues/kinesitherapie/?fbclid=IwAR1wCA_CTycWHcpxNpZ-_a6gcRGsDn4Y61sj9y4fAJTHazVvePhCehHzESw' className='home-btn'>Plus d'info</a>
             </div>
             <div className='services-sub-box'>
                 <div className='services-text-box'>
@@ -39,7 +39,7 @@ const ServicesFr = () => {
                         Puisque le massage suédois se fait sur toutes les parties du corps, il s’adresse aux personnes 
                         n’ayant pas de problèmatiques spécifiques et qui cherchent donc plutôt à se détendre et à diminuer leur stress.
                     </p>
-                    <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/massage-suedois/' class='home-btn'>Plus d'info</a>
+                    <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/massage-suedois/' className='home-btn'>Plus d'info</a>
                 </div>
                 <div className='image-box'>
                     <img src={suedois} alt='massage therapeuthique' className='services-image'/>
@@ -62,7 +62,7 @@ const ServicesFr = () => {
                         Il est idéal suite à une chirurgie, pour éviter la retention d’eau, l’enflure (oedème) ou la sensation de jambes lourdes. 
                         En plus d’être extrêmement relaxant, les défenses immunitaires de l’organisme en bénéficient énormement.
                     </p>
-                    <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/drainage-lymphatique/' class='home-btn'>Plus d'info</a>
+                    <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/drainage-lymphatique/' className='home-btn'>Plus d'info</a>
                 </div>
             </div>
             <div className='services-sub-box'>
@@ -72,7 +72,7 @@ const ServicesFr = () => {
                         Le soin thérapeutique s’adresse à une problématique particulière,  
                         soit de soulager une pathologie déjà existante, de prévenir les blessures
                         ou pour faciliter la récupération suite à l’entrainement physique. 
-                        Le massage thérapeutique peut s’effectuer à l’aide des procédures suivantes:
+                        Le massage thérapeutique peut s’effectuer à l’aide des méthodes suivantes:
                     </p>
                     <div className='services-procedures-box'>
                         <div>

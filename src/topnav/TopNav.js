@@ -36,28 +36,18 @@ const TopNav = () => {
                         <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>
                         <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png blue-hover"src={facebook} alt='facebook link'/></a>
                     </div>
-                    <img src={topNavLogo} onClick={goToHome} alt='top nav logo' className="top-nav-logo"/>
+                    <img src={topNavLogo} onClick={goToHome} alt='Nedelya massage logo' className="top-nav-logo"/>
                     <div className="top-nav-button-box">
-                        <button onClick={chooseLanguage} className='top-nav-button'>Fr</button>
+                        <button onClick={chooseLanguage} alt='choisir langue francaise' className='top-nav-button'>Fr</button>
                     </div>
                 </div>
                 <div className="top-nav-bottom-box">
                     <ul className="top-nav-links">
-                        <Link to='en'>
-                            <li>Home</li>
-                        </Link>
-                        <Link to='en/about'>
-                            <li>About</li>
-                        </Link>
-                        <Link to='en/services'>
-                            <li>Services</li>
-                        </Link>
-                        <Link to='en/shop'>
-                            <li>Shop</li>
-                        </Link>
-                        <Link to='en/contact'>
-                            <li>Reservation</li>
-                        </Link>
+                        <li><Link to='en'>Home</Link></li>
+                        <li><Link to='en/about'>About</Link></li>
+                        <li><Link to='en/services'>Services</Link></li>
+                        <li><Link to='en/shop'>Shop</Link></li>
+                        <li><Link to='en/contact'>Reservation</Link></li>
                     </ul>
                 </div>
             </nav>
@@ -71,28 +61,18 @@ const TopNav = () => {
                     <a href="https://www.instagram.com/massotherapie.nedelya/?hl=en"><img className="top-nav-socialmedia-png pink-hover" src={instagram} alt='instagram link'/></a>
                     <a href='https://www.facebook.com/nedelya.massage'><img className="top-nav-socialmedia-png blue-hover" src={facebook} alt='facebook link'/></a>
                 </div>
-                <img src={topNavLogo} onClick={goToHome} alt='top nav logo' className="top-nav-logo"/>
+                <img src={topNavLogo} onClick={goToHome} alt='nedelya massage logo' className="top-nav-logo"/>
                 <div className="top-nav-button-box">
-                    <button onClick={chooseLanguage} className='top-nav-button'>En</button>
+                    <button onClick={chooseLanguage} className='top-nav-button' alt='choose english language'>En</button>
                 </div>
             </div>
             <div className="top-nav-bottom-box">
                 <ul className="top-nav-links">
-                    <Link to=''>
-                        <li>Accueil</li>
-                    </Link>
-                    <Link to='fr/a-propos'>
-                        <li>À Propos</li>
-                    </Link>
-                    <Link to='fr/services'>
-                        <li>Services</li>
-                    </Link>
-                    <Link to='fr/boutique'>
-                        <li>Boutique</li>
-                    </Link>
-                    <Link to='fr/contact'>
-                        <li>Réservation</li>
-                    </Link>
+                    <li><Link to=''>Accueil</Link></li>
+                    <li><Link to='fr/a-propos'>À Propos</Link></li>
+                    <li><Link to='fr/services'>Services</Link></li>
+                    <li><Link to='fr/boutique'>Boutique</Link></li>
+                    <li><Link to='fr/contact'>Réservation</Link></li>
                 </ul>
             </div>
         </nav>

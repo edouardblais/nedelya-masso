@@ -9,7 +9,7 @@ const ContactEn = () => {
     return (
         <main className='contact-box'>
             <header className='text-box'>
-                <h2 className='home-text'>Book your massage session with Nedelya!</h2>
+                <h2 className='home-text'>Book your massage session!</h2>
             </header>
             <div className='overview-box with-padding'>
                 <div className='image-box'>

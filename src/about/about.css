@@ -4,7 +4,16 @@
     flex-direction: column;
     min-width: 100vw;
     padding: 1.5vw 0 0 0;
-    background-color: #fafaf9;
+    background-color: #fafafa;
+}
+
+.about-subbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    align-items: center;
+    margin-bottom: 1.5vw;
 }
 
 .about-title-box {
@@ -22,7 +31,7 @@
 .reseau-image {
     max-width: 20vw;
     height: auto;
-    border: .5px solid black;
+    border: .5px solid rgb(207, 109, 4);
 }
 
 .about-name, .about-title {
@@ -31,6 +40,7 @@
 
 .about-name {
     font-size: 2.5rem;
+    color:rgb(219, 113, 0);
 }
 
 .about-title {
@@ -65,7 +75,6 @@
     padding: 1.5vw 0 1.5vw 0;
     gap:1.5vh;
     background-color: #f4f4f5;
-    margin-top:1.5vw;
     min-width: 100vw;
 }
 
@@ -77,6 +86,7 @@
     font-size: 2rem;
     font-weight: 400;
     margin:0;
+    color:rgb(207, 109, 4);
 }
 
 .about-know-more-sub-title {

@@ -4,7 +4,7 @@
     flex-direction: column;
     min-width: 100vw;
     box-sizing: border-box;
-    background-color: #fafaf9;
+    background-color: #fafafa;
 }
 
 .with-padding {
@@ -131,20 +131,20 @@
 }
 
 .home-btn {
-    border: 3px solid #fb923c;
+    border: 3px solid rgb(219, 113, 0);
     border-radius: 1rem;
     padding: .8vh;
-    color: #fafaf9;
+    color: white;
     font-weight: 400;
     font-size: 1.8rem;
-    background-color: #fb923c;
+    background-color: rgb(219, 113, 0);
     transition: background-color .3s ease-out .05s, color .3s ease-out .05s;
     vertical-align: middle;
 }
 
 .home-btn:hover {
-    background-color: #fafaf9;
-    color: #fb923c;
+    background-color: #fafafa;
+    color: rgb(219, 113, 0);
     cursor: pointer;
 }
 
