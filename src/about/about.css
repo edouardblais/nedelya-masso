@@ -71,6 +71,12 @@
     text-align: justify;
 }
 
+@media (max-width:600px) {
+    .about-text-box {
+        max-width: 70vw;
+    }
+}
+
 .about-text {
     font-size: 1.6rem;
     margin:0;
