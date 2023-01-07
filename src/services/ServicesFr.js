@@ -58,7 +58,7 @@ const ServicesFr = () => {
                         Il est généralement pratiqué sans huile dans le sens de la circulation lymphatique 
                         (distale à proximale, à sens unique, des capillaires sanguins vers le coeur), 
                         de manière précise et rhytmée, afin de désengorger les ganglions et vaisseaux. 
-                        Il vise à aider le corps dans son processus de désintoxication, de réduction de la rétention d’eau et de l’inflammation. 
+                        Il vise à aider le corps dans son processus de détoxification, de réduction de la rétention d’eau et de l’inflammation. 
                         Il est idéal suite à une chirurgie, pour éviter la retention d’eau, l’enflure (oedème) ou la sensation de jambes lourdes. 
                         En plus d’être extrêmement relaxant, les défenses immunitaires de l’organisme en bénéficient énormement.
                     </p>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d24a16cd.css",
-    "main.js": "/static/js/main.c1bdea26.js",
+    "main.js": "/static/js/main.eff363d3.js",
     "static/media/drainage.jpg": "/static/media/drainage.c80e5123458e4aff8c0c.jpg",
     "static/media/suedois.jpg": "/static/media/suedois.07c60e4a4059199d6647.jpg",
     "static/media/therap.jpg": "/static/media/therap.90bc7d0385794de55cbf.jpg",
@@ -19,10 +19,10 @@
     "static/media/topNavLogo.png": "/static/media/topNavLogo.c4f94dec111e2b907476.png",
     "index.html": "/index.html",
     "main.d24a16cd.css.map": "/static/css/main.d24a16cd.css.map",
-    "main.c1bdea26.js.map": "/static/js/main.c1bdea26.js.map"
+    "main.eff363d3.js.map": "/static/js/main.eff363d3.js.map"
   },
   "entrypoints": [
     "static/css/main.d24a16cd.css",
-    "static/js/main.c1bdea26.js"
+    "static/js/main.eff363d3.js"
   ]
 }
