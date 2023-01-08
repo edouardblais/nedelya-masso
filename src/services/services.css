@@ -65,6 +65,14 @@
     color:rgb(207, 109, 4);
 }
 
+.insurance-text {
+    margin:0;
+    font-size: 1.7rem;
+    color:rgb(207, 109, 4);
+    font-weight: 400;
+    margin-bottom: 2vh;
+}
+
 .services-image {
     width: 40vw;
     height: auto;

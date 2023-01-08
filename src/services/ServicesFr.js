@@ -17,6 +17,9 @@ const ServicesFr = () => {
                 <p className='prices-text'>
                     90 minutes: 105$ (+ taxes)
                 </p>
+                <p className='insurance-text'>
+                    ** Reçu d'assurance disponible **
+                </p>
             </div>
             <div className='services-text-box'>
                 <h2 className='services-title'>Qu'est-ce que la kinésithérapie?</h2>

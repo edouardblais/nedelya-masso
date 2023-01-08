@@ -17,6 +17,9 @@ const ServicesEn = () => {
                 <p className='prices-text'>
                     90 minutes: 105$ (+ taxes)
                 </p>
+                <p className='prices-text'>
+                    ** Insurance receipts available **
+                </p>
             </div>
             <div className='services-text-box'>
                 <h2 className='services-title'>What is kinesitherapy?</h2>
