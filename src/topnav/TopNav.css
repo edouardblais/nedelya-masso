@@ -66,6 +66,8 @@
 
 .top-nav-socialmedia-png {
     filter: invert(100%) sepia(7%) saturate(5605%) hue-rotate(180deg) brightness(101%) contrast(70%);
+    width: 2vw;
+    height: auto;
 }
 
 .blue-hover:hover {
