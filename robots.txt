@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://heartfelt-treacle-d673f4.netlify.app/
