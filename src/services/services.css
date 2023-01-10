@@ -26,7 +26,7 @@
     padding: 1.5vw 0 1.5vw 0;
 }
 
-@media (max-width:600px) {
+@media (max-width:1024px) {
     .services-sub-box {
         flex-direction: column;
     }
@@ -76,6 +76,12 @@
 .services-image {
     width: 40vw;
     height: auto;
+}
+
+@media (max-width: 1024px) {
+    .services-image {
+        width: 50vw;
+    }
 }
 
 .services-procedure-box {

@@ -8,9 +8,9 @@
     height: auto;
 }
 
-@media (max-width:600px) {
+@media (max-width:1024px) {
     .shop-images {
-        width: 70vw;
+        width: 50vw;
         height: auto;
     }
 }
@@ -28,7 +28,7 @@
 }
 
 
-@media (max-width:600px) {
+@media (max-width:1024px) {
     .shop-logo {
         width: 20vw;
         height: auto;

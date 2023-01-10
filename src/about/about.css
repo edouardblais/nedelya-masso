@@ -16,7 +16,7 @@
     margin-bottom: 1.5vw;
 }
 
-@media (max-width:600px) {
+@media (max-width:1024px) {
     .about-subbox {
         flex-direction: column;
     }
@@ -34,9 +34,9 @@
     height: auto;
 }
 
-@media (max-width:600px) {
+@media (max-width:1024px) {
     .about-image {
-        max-width: 40vw;
+        max-width: 45vw;
     }
 }
 
@@ -71,7 +71,7 @@
     text-align: justify;
 }
 
-@media (max-width:600px) {
+@media (max-width:1024px) {
     .about-text-box {
         max-width: 70vw;
     }
