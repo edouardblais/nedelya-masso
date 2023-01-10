@@ -14,8 +14,8 @@ const About = () => {
                 </div>
                 <div className='about-text-box'>
                     <div className='about-title-box'>
-                        <h3 className='about-name'>Nedelya Savcheva</h3>
-                        <h4 className='about-title'>Masso-kinesitherapist</h4>
+                        <h1 className='about-name'>Nedelya Savcheva</h1>
+                        <h2 className='about-title'>Masso-kinesitherapist</h2>
                     </div>
                     <p className='about-text'>
                         A graduate of the Academy of Scientific Massage, Nedelya is a massage therapist

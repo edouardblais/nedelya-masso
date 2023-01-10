@@ -14,8 +14,8 @@ const APropos = () => {
                 </div>
                 <div className='about-text-box'>
                     <div className='about-title-box'>
-                        <h3 className='about-name'>Nedelya Savcheva</h3>
-                        <h4 className='about-title'>Masso-kinesithérapeuthe</h4>
+                        <h1 className='about-name'>Nedelya Savcheva</h1>
+                        <h2 className='about-title'>Masso-kinesithérapeuthe</h2>
                     </div>
                     <p className='about-text'>
                         Diplômée de l’Académie de massage scientifique, Nedelya est une massothérapeute  

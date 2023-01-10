@@ -10,7 +10,7 @@ const ServicesEn = () => {
     return (
         <main className='services-box'>
             <div className='services-text-box'>
-                <h2 className='services-title'>Prices</h2>
+                <h1 className='services-title'>Prices</h1>
                 <p className='prices-text'>
                     60 minutes: 80$ (+ taxes)
                 </p>
@@ -34,7 +34,7 @@ const ServicesEn = () => {
             </div>
             <div className='services-sub-box'>
                 <div className='services-text-box'>
-                    <p className='services-title'>Swedish Massage</p>
+                    <h2 className='services-title'>Swedish Massage</h2>
                     <p className='services-text'>
                         Swedish massage consists of slow movements using low to medium pressure. 
                         It aims to relax the first layer of muscles, increase the circulation of body fluids and provide a relaxing effect. 
@@ -52,7 +52,7 @@ const ServicesEn = () => {
                     <img src={drainage} alt='drainage lymphatique' className='services-image'/>
                 </div>
                 <div className='services-text-box'>
-                    <p className='services-title'>Manual Lymphatic Drainage (MLD)</p>
+                    <h2 className='services-title'>Manual Lymphatic Drainage (MLD)</h2>
                     <p className='services-text'>
                         The lymphatic system is responsible for the body's immune response. 
                         It is responsible for draining interstitial fluid and metabolic wastes as well as transporting hormones and lipids. 
@@ -69,7 +69,7 @@ const ServicesEn = () => {
             </div>
             <div className='services-sub-box'>
                 <div className='services-text-box'>
-                    <p className='services-title'>Therapeuthic Massage</p>
+                    <h2 className='services-title'>Therapeuthic Massage</h2>
                     <p className='services-text'>
                         Therapeutic massaging addresses a particular problem,
                         either to relieve an already existing pathology, to prevent injuries

@@ -29,14 +29,14 @@ const Home = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
-                        <p className='home-text white-text'>Massage therapy for athletes by an athlete</p>
+                        <h1 className='home-text white-text'>Massage therapy for athletes by an athlete</h1>
                         <button className='home-btn' onClick={goToReservation} alt='go to booking'>BOOK NOW</button>
                     </div>
                 </div>
             </div>
             <div className='overview-box with-padding'>
                 <div className='text-box'>
-                    <p className='home-text'>Massage therapy tailored to your needs</p>
+                    <h1 className='home-text'>Massage therapy tailored to your needs</h1>
                     <button className='home-btn' onClick={goToServices} alt='go to services'>SERVICES</button>
                 </div>
                 <div className='image-box'>
@@ -46,7 +46,7 @@ const Home = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch skala'>
                     <div className='text-box-skala'>
-                        <p className='home-text white-text'>Recommended products</p>
+                        <h1 className='home-text white-text'>Recommended products</h1>
                         <button className='home-btn' onClick={goToShop} alt='go to shop'>SHOP</button>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const Home = () => {
                     <img src={Nedso} alt='Ned' className='home-image'/>
                 </div>
                 <div className='text-box'>
-                    <p className='home-text'>Experience the unique blend of professionalism and warmth with Nedelya</p>
+                    <h1 className='home-text'>Experience the unique blend of professionalism and warmth with Nedelya</h1>
                     <button className='home-btn' onClick={goToAbout} alt='go to biography'>KNOW MORE</button>
                 </div>
             </div>

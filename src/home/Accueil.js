@@ -30,14 +30,14 @@ const Accueil = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
-                        <p className='home-text white-text'>La massothérapie pour les athlètes par une athlète</p>
+                        <h1 className='home-text white-text'>La massothérapie pour les athlètes par une athlète</h1>
                         <button className='home-btn' onClick={goToReservation} alt='aller aux reservations'>RÉSERVEZ</button>
                     </div>
                 </div>
             </div>
             <div className='overview-box with-padding'>
                 <div className='text-box'>
-                    <p className='home-text'>Massothéraphie adaptée à vos besoins</p>
+                    <h1 className='home-text'>Massothéraphie adaptée à vos besoins</h1>
                     <button className='home-btn' onClick={goToServices} alt='aller aux services'>SERVICES</button>
                 </div>
                 <div className='image-box'>
@@ -47,7 +47,7 @@ const Accueil = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch skala'>
                     <div className='text-box-skala'>
-                        <p className='home-text white-text'>Produits recommandés</p>
+                        <h1 className='home-text white-text'>Produits recommandés</h1>
                         <button className='home-btn' onClick={goToShop} alt='aller a la boutique'>BOUTIQUE</button>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const Accueil = () => {
                     <img src={Nedso} alt='Nedelya' className='home-image'/>
                 </div>
                 <div className='text-box'>
-                    <p className='home-text'>Découvrez le mélange unique de professionnalisme et de chaleur avec Nedelya</p>
+                    <h1 className='home-text'>Découvrez le mélange unique de professionnalisme et de chaleur avec Nedelya</h1>
                     <button className='home-btn' onClick={goToAbout} alt='aller a la biographie'>EN SAVOIR PLUS</button>
                 </div>
             </div>

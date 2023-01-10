@@ -10,7 +10,7 @@ const ServicesFr = () => {
     return (
         <main className='services-box'>
             <div className='services-text-box'>
-                <h2 className='services-title'>Tarifs</h2>
+                <h1 className='services-title'>Tarifs</h1>
                 <p className='prices-text'>
                     60 minutes: 80$ (+ taxes)
                 </p>
@@ -34,7 +34,7 @@ const ServicesFr = () => {
             </div>
             <div className='services-sub-box'>
                 <div className='services-text-box'>
-                    <p className='services-title'>Suédois Détente</p>
+                    <h2 className='services-title'>Suédois Détente</h2>
                     <p className='services-text'>
                         Le massage suédois est constitué de mouvements englobants et lents en utilisant une pression faible à moyenne. 
                         Il vise à détendre la première couche de muscles, à augmenter la circulation des liquides du corps 
@@ -53,7 +53,7 @@ const ServicesFr = () => {
                     <img src={drainage} alt='drainage lymphatique' className='services-image'/>
                 </div>
                 <div className='services-text-box'>
-                    <p className='services-title'>Drainage Lymphatique Manuel (DLM)</p>
+                    <h2 className='services-title'>Drainage Lymphatique Manuel (DLM)</h2>
                     <p className='services-text'>
                         Le système lymphatique est responsable de la réponse immunitaire du corps. 
                         Il s’occupe de drainer le liquide interstitiel et les déchets métaboliques ainsi que de transporter les hormones et les lipides. 
@@ -70,7 +70,7 @@ const ServicesFr = () => {
             </div>
             <div className='services-sub-box'>
                 <div className='services-text-box'>
-                    <p className='services-title'>Massage Thérapeuthique</p>
+                    <h2 className='services-title'>Massage Thérapeuthique</h2>
                     <p className='services-text'>
                         Le soin thérapeutique s’adresse à une problématique particulière,  
                         soit de soulager une pathologie déjà existante, de prévenir les blessures
