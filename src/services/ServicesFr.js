@@ -25,10 +25,10 @@ const ServicesFr = () => {
                 <h2 className='services-title'>Qu'est-ce que la kinésithérapie?</h2>
                 <p className='services-text'>
                     La kinésithérapie est le mélange du massage et du mouvement. 
-                    Par le biais de mobilisations passives, actives ou contrariées, 
+                    Par le biais de mobilisations passives ou actives, 
                     elle vise à faciliter un mouvement normal et sans douleur du corps
                      et de ses articulations. Cette approche peut tout aussi bien être incorporée dans un soin
-                      de détente que dans un soin dit thérapeutique. 
+                      de détente que dans un soin thérapeutique. 
                 </p>
                 <a href='https://rmpq.ca/ressources-et-formation-des-therapeutes/disciplines-reconnues/kinesitherapie/?fbclid=IwAR1wCA_CTycWHcpxNpZ-_a6gcRGsDn4Y61sj9y4fAJTHazVvePhCehHzESw' className='home-btn'>Plus d'info</a>
             </div>

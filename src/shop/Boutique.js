@@ -15,7 +15,7 @@ const Boutique = () => {
                 <div className='services-text-box'>
                     <img src={skalaLogo} alt='skala logo' className='shop-logo'/>
                     <p className='shop-text'>
-                        Produit par Nedelya, Skala est un baume réparateur dédié aux grimpeurs fait exclusivement d’ingrédients naturels
+                        Produit par Nedelya, Skala est un baume réparateur dédié aux grimpeurs fait exclusivement d’ingrédients naturels.
                     </p>
                 </div>
                 <div className='image-box'>

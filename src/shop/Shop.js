@@ -15,7 +15,7 @@ const Shop = () => {
                 <div className='services-text-box'>
                     <img src={skalaLogo} alt='skala logo' className='shop-logo'/>
                     <p className='shop-text'>
-                        Produced by Nedelya, Skala is a repairing balm dedicated to climbers made exclusively from natural ingredients
+                        Produced by Nedelya, Skala is a repairing balm dedicated to climbers made exclusively from natural ingredients.
                     </p>
                 </div>
                 <div className='image-box'>
@@ -35,9 +35,9 @@ const Shop = () => {
             </div>
             <div className='services-sub-box'>
                 <div className='services-text-box'>
-                <p className='shop-title'>Gift certificates!</p>
+                <p className='shop-title'>Gift certificates</p>
                     <p className='shop-text'>
-                        Give a massage session as a gift! Gift certificats are available for massages of 60 or 90 minutes. Contact <Link className='shop-link-alternative' to='../en/contact'>Nedelya</Link> to get some now!
+                        Give a massage session as a gift! Gift certificats are available for massages of 60 or 90 minutes. Contact <Link className='shop-link-alternative' to='../en/contact'>Nedelya</Link> to get one!
                     </p>
                 </div>
                 <div className='image-box'>

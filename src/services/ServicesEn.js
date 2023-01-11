@@ -25,10 +25,10 @@ const ServicesEn = () => {
                 <h2 className='services-title'>What is kinesitherapy?</h2>
                 <p className='services-text'>
                     Kinesitherapy is the combination of massage and movement.
-                    Through passive, active or thwarted mobilizations,
+                    Through passive or active mobilizations,
                     it aims to facilitate normal and painless movement of the body
                      and its joints. This approach can just as well be incorporated into a treatment
-                      of relaxation than in a so-called therapeutic treatment.
+                      of relaxation or in a therapeutic treatment.
                 </p>
                 <a href='https://rmpq.ca/en/resources-and-training-of-therapists/recognized-disciplines/kinesitherapy/' className='home-btn'>More info</a>
             </div>
@@ -58,10 +58,10 @@ const ServicesEn = () => {
                         It is responsible for draining interstitial fluid and metabolic wastes as well as transporting hormones and lipids. 
                         MLD is a gentler and slower form of massage compared to Swedish. 
                         It is generally oil-free, done in the direction of the lymphatic circulation 
-                        (distal to proximal, one-way, from the blood capillaries to the heart),
+                        (distal to proximal, one-way, from the blood capillaries towards the heart),
                          in a precise and rhythmic manner, in order to unclog and stimulate the lymph nodes and vessels. 
                          It aims to help the body in its process of detoxification, and reduction of water retention and inflammation.
-                        It is ideal following a surgery, against water retention, swelling (oedema) or to counter the feeling of heavy legs. 
+                        It is ideal following a surgery, against water retention, swelling (oedema) or to ease the feeling of restless legs. 
                         In addition to being extremely relaxing, the body's immune defenses benefit from it enormously.
                     </p>
                     <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/lymphatic-draining/' className='home-btn'>More info</a>
@@ -71,9 +71,9 @@ const ServicesEn = () => {
                 <div className='services-text-box'>
                     <h2 className='services-title'>Therapeuthic Massage</h2>
                     <p className='services-text'>
-                        Therapeutic massaging addresses a particular problem,
+                        Therapeutic massage addresses a particular problem,
                         either to relieve an already existing pathology, to prevent injuries
-                        or to facilitate recovery following physical training.
+                        or to facilitate recovery following physical exercise.
                         Therapeutic massage can be performed using the following methods:
                     </p>
                     <div className='services-procedures-box'>
