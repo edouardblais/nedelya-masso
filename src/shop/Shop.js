@@ -29,7 +29,7 @@ const Shop = () => {
                 <div className='services-text-box'>
                     <p className='shop-title'>Available in store!</p>
                     <p className='shop-text'>
-                        Get Skala at <a href='https://www.cafebloc.com/' className='shop-link'>Cafe Bloc</a> and <a className='shop-link' href='https://www.hookbouldering.com/'>Hook Bouldering</a>, or simply contact <Link className='shop-link' to='../en/contact'>Nedelya</Link>!
+                        Get Skala online at <a href='https://shop.cafebloc.com/en/produit/skala-skin-repair-balm/' className='shop-link'>Shop Cafe Bloc</a>! Skala is also available in store at <a href='https://www.cafebloc.com/' className='shop-link'>Cafe Bloc</a> and <a className='shop-link' href='https://www.hookbouldering.com/'>Hook Bouldering</a>. Otherwise, simply contact <Link className='shop-link' to='../en/contact'>Nedelya</Link> to get some!
                     </p>
                 </div>
             </div>

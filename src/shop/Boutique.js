@@ -27,9 +27,9 @@ const Boutique = () => {
                     <img src={skalaCB} alt='skala on a shelf' className='shop-images'/>
                 </div>
                 <div className='services-text-box'>
-                    <p className='shop-title'>Disponible en magasin!</p>
+                    <p className='shop-title'>Disponible en ligne et en magasin!</p>
                     <p className='shop-text'>
-                        Procurez-vous du Skala au <a href='https://www.cafebloc.com/' className='shop-link'>Café Bloc</a> et au <a className='shop-link' href='https://www.hookbouldering.com/'>Hook Bouldering</a>, ou encore en contactant directement <Link className='shop-link' to='../fr/contact'>Nedelya</Link>!
+                        Procurez-vous du Skala en ligne sur le <a href='https://shop.cafebloc.com/en/produit/skala-skin-repair-balm/' className='shop-link'>Shop Café Bloc</a>! Skala est aussi disponible sur place au <a href='https://www.cafebloc.com/' className='shop-link'>Café Bloc</a> et au <a className='shop-link' href='https://www.hookbouldering.com/'>Hook Bouldering</a>. Sinon contactez directement <Link className='shop-link' to='../fr/contact'>Nedelya</Link> pour en obtenir!
                     </p>
                 </div>
             </div>
