@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.02ef0674.css",
-    "main.js": "/static/js/main.1d476ffa.js",
+    "main.css": "/static/css/main.34ece685.css",
+    "main.js": "/static/js/main.703dbf6b.js",
     "static/media/skalahand.jpeg": "/static/media/skalahand.8ac65a75d6e270b4b892.jpeg",
     "static/media/nedclimbs.jpg": "/static/media/nedclimbs.bcd8a2a59c1ec7aa3e77.jpg",
     "static/media/skalaontherockthin.jpg": "/static/media/skalaontherockthin.fa85f5c141a32a172f8d.jpg",
@@ -9,6 +9,7 @@
     "static/media/suedois.jpg": "/static/media/suedois.3f6864c53e76eb5d26f1.jpg",
     "static/media/therap.jpg": "/static/media/therap.c951c96efb69a8726114.jpg",
     "static/media/cafebloc.png": "/static/media/cafebloc.2f9d71ae18608ef32ced.png",
+    "static/media/skalalogosable.png": "/static/media/skalalogosable.12eee60fc787e0de1186.png",
     "static/media/nedhappy.jpg": "/static/media/nedhappy.cd35f05ea9f1f5ca87b0.jpg",
     "static/media/hook.png": "/static/media/hook.04c9953268a561ad0d13.png",
     "static/media/reseau.jpg": "/static/media/reseau.3f8ba4561e92b76864ef.jpg",
@@ -16,14 +17,13 @@
     "static/media/nedmass.jpg": "/static/media/nedmass.a52c1be38a72169c082c.jpg",
     "static/media/nedmass2.jpg": "/static/media/nedmass2.cc7b70586ae770c210bd.jpg",
     "static/media/nedso.jpg": "/static/media/nedso.0ec194442baca1242248.jpg",
-    "static/media/skalasable.jpg": "/static/media/skalasable.60365b498cf0bd0852d5.jpg",
     "static/media/topNavLogo.png": "/static/media/topNavLogo.69006628dda4125a11a3.png",
     "index.html": "/index.html",
-    "main.02ef0674.css.map": "/static/css/main.02ef0674.css.map",
-    "main.1d476ffa.js.map": "/static/js/main.1d476ffa.js.map"
+    "main.34ece685.css.map": "/static/css/main.34ece685.css.map",
+    "main.703dbf6b.js.map": "/static/js/main.703dbf6b.js.map"
   },
   "entrypoints": [
-    "static/css/main.02ef0674.css",
-    "static/js/main.1d476ffa.js"
+    "static/css/main.34ece685.css",
+    "static/js/main.703dbf6b.js"
   ]
 }
