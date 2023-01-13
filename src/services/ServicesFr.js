@@ -80,7 +80,7 @@ const ServicesFr = () => {
                     <div className='services-procedures-box'>
                         <div>
                             <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/massage-aux-ventouses/?fbclid=IwAR14raccXf6PpEfwLFodQizn5ixvFUXnsEO7dEzXm1Mo1PlwgC74Y4evhTs' className='services-link'>
-                                -La vacuothérapie (traitement avec ventouses)
+                                -Décompression myofasciale (traitement avec ventouses)
                             </a>
                         </div>
                         <div>

@@ -79,7 +79,7 @@ const ServicesEn = () => {
                     <div className='services-procedures-box'>
                         <div>
                             <a href='https://rmpq.ca/en/techniques-and-benefits-of-massage-therapy/recognized-massage-techniques/cupping-massage/' className='services-link'>
-                                -Vacuotherapy (treatment with cupping)
+                                -Myofascial decompression ( cupping)
                             </a>
                         </div>
                         <div>
