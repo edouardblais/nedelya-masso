@@ -1,7 +1,9 @@
-# Info
+# About
 
-Un site web pour ma bonne amie Nedelya Savcheva, massotherapeute de feu.
+A website for Nedelya Savcheva, professional massage therapist!
 
-Trouve le ici pour le moment (en construction): https://edouardblais.github.io/nedelya-masso/ 
+Built with React, styled with pure CSS, hosted on Netlify.
+
+See it live [here!](https://nedelyamassokine.com/)
 
 
