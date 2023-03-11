@@ -29,7 +29,7 @@ const Home = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
-                        <h1 className='home-text white-text'>Massage therapy for athletes by an athlete</h1>
+                        <h1 className='home-text white-text'>Massage therapy for climbers by a climber</h1>
                         <button className='home-btn' onClick={goToReservation} alt='go to booking'>BOOK NOW</button>
                     </div>
                 </div>

@@ -15,7 +15,7 @@ const APropos = () => {
                 <div className='about-text-box'>
                     <div className='about-title-box'>
                         <h1 className='about-name'>Nedelya Savcheva</h1>
-                        <h2 className='about-title'>Masso-kinesithérapeuthe</h2>
+                        <h2 className='about-title'>Masso-kinesithérapeute</h2>
                     </div>
                     <p className='about-text'>
                         Diplômée de l’Académie de massage scientifique, Nedelya est une massothérapeute  
@@ -24,9 +24,9 @@ const APropos = () => {
                     </p>
                     <p className='about-text'>
                         Sa soif de connaissance et son désir d’apporter un traitement optimal à ses clients
-                        l’ont poussé à cumuler plus de 200 heures de formation continue à l’institut de massothérapie Kiné-Concept - Guijek.
-                        Aujourd’hui, Nedelya combine ses deux grandes passions en pratiquant dans deux centres d’escalade de la région de Montréal,
-                        soit le Café Bloc et le Hook Bouldering.
+                        l’ont poussé à cumuler plus de 300 heures de formation continue à l’institut de massothérapie Kiné-Concept - Guijek.
+                        Aujourd’hui, Nedelya combine ses deux grandes passions en pratiquant dans trois centres d’escalade de la région de Montréal,
+                        soit le Bloc Shop, le Café Bloc et le Hook Bouldering.
                     </p>
                     <div className='image-box'>
                         <img src={Reseau} alt='Member of Masso Network' className='reseau-image'/>

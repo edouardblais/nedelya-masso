@@ -30,7 +30,7 @@ const Accueil = () => {
             <div className='overview-box'>
                 <div className='image-box-stretch nedclimb'>
                     <div className='text-box-nedclimb'>
-                        <h1 className='home-text white-text'>La massothérapie pour les athlètes par une athlète</h1>
+                        <h1 className='home-text white-text'>La massothérapie pour les grimpeurs par une grimpeuse</h1>
                         <button className='home-btn' onClick={goToReservation} alt='aller aux reservations'>RÉSERVEZ</button>
                     </div>
                 </div>

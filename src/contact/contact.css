@@ -1,14 +1,105 @@
 .contact-box {
+    height:calc(100vh - 154px);
+    position: relative;
+}
+
+.contact-sidebar-box {
+    position: absolute;
+    top:0;
+    left:0;
+    height:calc(100vh - 154px);
+    width:350px;
     display: flex;
     flex-direction: column;
-    grid-area:content;
-    gap:2vh;
-    padding: 1.5vw 0 0 0;
-    justify-content: center;
+    gap:12px;
+    padding:8px 20px;
+    box-sizing: border-box;
+    background-color:#fafafa;
+    box-shadow: 4px 4px 2px rgba(0,0,0,0.3);
+}
+
+.contact-text-box {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    border-top: 2px solid rgba(0,0,0,0.7);
+    padding-top:10px;
+}
+
+.contact-text {
+    margin:0;
+    font-size: 1.3rem;
+}
+
+.contact-btn-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.contact-title {
+    margin:0;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.contact-close-box {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
     align-items: center;
 }
 
-.contact-image {
+.contact-close-btn {
+    margin:0;
+    background-color: transparent;
+    border:none;
+    margin-bottom: -10px;
+}
+
+.contact-close-btn:hover {
+    cursor: pointer;
+}
+
+.contact-close-icon {
+    height:30px;
+    width: auto;
+    filter: invert(46%) sepia(96%) saturate(2630%) hue-rotate(12deg) brightness(97%) contrast(101%);
+}
+
+.contact-expand-btn {
+    margin:0;
+    background-color: rgb(219, 113, 0);
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:5px;
+    left:5px;
+    border:none;
+    border-radius: 1rem;
+}
+
+.contact-expand-icon {
+    filter: invert(98%) sepia(26%) saturate(75%) hue-rotate(283deg) brightness(113%) contrast(100%);
+    height: 30px;
+    width: 30px;
+}
+
+.contact-expand-btn:hover {
+    cursor: pointer;
+}
+
+.marker {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    background-size: contain;
+}
+
+/* .contact-image {
     max-width: 40vw;
     height: auto;
     border:1px solid rgb(219, 113, 0);
@@ -24,8 +115,7 @@
     align-items: center;
     background-color: #f4f4f5;
     width: 100vw;
-}
-
+} */
 
 .reserv-title {
     font-size: 2rem;
