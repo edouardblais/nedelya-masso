@@ -45,7 +45,7 @@ const ServicesFr = () => {
                     <a href='https://rmpq.ca/techniques-et-bienfaits-de-la-massotherapie/techniques-reconnues/massage-suedois/' className='home-btn'>Plus d'info</a>
                 </div>
                 <div className='image-box'>
-                    <img src={suedois} alt='massage therapeuthique' className='services-image'/>
+                    <img src={suedois} alt='massage therapeutique' className='services-image'/>
                 </div>
             </div>
             <div className='services-sub-box'>
@@ -70,7 +70,7 @@ const ServicesFr = () => {
             </div>
             <div className='services-sub-box'>
                 <div className='services-text-box'>
-                    <h2 className='services-title'>Massage Thérapeuthique</h2>
+                    <h2 className='services-title'>Massage Thérapeutique</h2>
                     <p className='services-text'>
                         Le soin thérapeutique s’adresse à une problématique particulière,  
                         soit de soulager une pathologie déjà existante, de prévenir les blessures
