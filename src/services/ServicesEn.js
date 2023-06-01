@@ -12,10 +12,10 @@ const ServicesEn = () => {
             <div className='services-text-box'>
                 <h1 className='services-title'>Prices</h1>
                 <p className='prices-text'>
-                    60 minutes: 80$ (+ taxes)
+                    60 minutes: 85$ (+ taxes)
                 </p>
                 <p className='prices-text'>
-                    90 minutes: 105$ (+ taxes)
+                    90 minutes: 110$ (+ taxes)
                 </p>
                 <p className='prices-text'>
                     ** Insurance receipts available **
