@@ -15,6 +15,7 @@ const TopNav = () => {
         if (location.pathname.startsWith('/en')) {
             setEnglish(true)
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
   
     const goToHome = () => {
