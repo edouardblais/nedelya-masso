@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.34ece685.css",
-    "main.js": "/static/js/main.e19ca83f.js",
+    "main.css": "/static/css/main.b9603388.css",
+    "main.js": "/static/js/main.7849315b.js",
     "static/media/skalahand.jpeg": "/static/media/skalahand.8ac65a75d6e270b4b892.jpeg",
     "static/media/nedclimbs.jpg": "/static/media/nedclimbs.bcd8a2a59c1ec7aa3e77.jpg",
     "static/media/skalaontherockthin.jpg": "/static/media/skalaontherockthin.fa85f5c141a32a172f8d.jpg",
     "static/media/drainage.jpg": "/static/media/drainage.fb8c063059025f531b58.jpg",
     "static/media/suedois.jpg": "/static/media/suedois.3f6864c53e76eb5d26f1.jpg",
     "static/media/therap.jpg": "/static/media/therap.c951c96efb69a8726114.jpg",
-    "static/media/cafebloc.png": "/static/media/cafebloc.2f9d71ae18608ef32ced.png",
     "static/media/skalalogosable.png": "/static/media/skalalogosable.12eee60fc787e0de1186.png",
     "static/media/nedhappy.jpg": "/static/media/nedhappy.cd35f05ea9f1f5ca87b0.jpg",
-    "static/media/hook.png": "/static/media/hook.04c9953268a561ad0d13.png",
     "static/media/reseau.jpg": "/static/media/reseau.3f8ba4561e92b76864ef.jpg",
     "static/media/skalacb.jpg": "/static/media/skalacb.0cd20e1ace7edddfeba5.jpg",
+    "static/media/hooklogo.png": "/static/media/hooklogo.82fabee783c62e038c2e.png",
     "static/media/nedmass.jpg": "/static/media/nedmass.a52c1be38a72169c082c.jpg",
     "static/media/nedmass2.jpg": "/static/media/nedmass2.cc7b70586ae770c210bd.jpg",
     "static/media/nedso.jpg": "/static/media/nedso.0ec194442baca1242248.jpg",
-    "static/media/topNavLogo.png": "/static/media/topNavLogo.69006628dda4125a11a3.png",
+    "static/media/topNavLogo.png": "/static/media/topNavLogo.3357ca2348918dde1599.png",
+    "static/media/blocshoplogo.jpeg": "/static/media/blocshoplogo.43ae4f026c7526816db4.jpeg",
     "index.html": "/index.html",
-    "main.34ece685.css.map": "/static/css/main.34ece685.css.map",
-    "main.e19ca83f.js.map": "/static/js/main.e19ca83f.js.map"
+    "static/media/close-icon.svg": "/static/media/close-icon.3af02b9ae106d7f1b9485f9cdd057a9d.svg",
+    "static/media/expand-icon.svg": "/static/media/expand-icon.e26502c1d84f2c76a3e6f8c600b8f2c4.svg",
+    "main.b9603388.css.map": "/static/css/main.b9603388.css.map",
+    "main.7849315b.js.map": "/static/js/main.7849315b.js.map"
   },
   "entrypoints": [
-    "static/css/main.34ece685.css",
-    "static/js/main.e19ca83f.js"
+    "static/css/main.b9603388.css",
+    "static/js/main.7849315b.js"
   ]
 }

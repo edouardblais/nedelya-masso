@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import './TopNav.css';
 import topNavLogo from '../img/topNavLogo.png';
 import facebook from '../img/facebook.png';
@@ -7,8 +7,15 @@ import instagram from '../img/instagram.png';
 
 const TopNav = () => {
     const navigate = useNavigate();
+    const location = useLocation();
 
     const [english, setEnglish] = useState(false);
+
+    useEffect(() => {
+        if (location.pathname.startsWith('/en')) {
+            setEnglish(true)
+        }
+    }, [])
   
     const goToHome = () => {
         if (english) {
