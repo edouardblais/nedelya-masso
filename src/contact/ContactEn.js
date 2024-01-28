@@ -9,13 +9,12 @@ import blocshoplogo from '../img/blocshoplogo.jpeg';
 import cafebloclogo from '../img/cafebloclogo.jpeg';
 
 const ContactEn = () => {
-
     const [displaySidebar, setDisplaySidebar] = useState(true);
 
     const mapContainer = useRef();
     const map = useRef(null);
 
-    const maplibre_key = process.env.MAPLIBRE_KEY;
+    const maplibre_key = process.env.REACT_APP_MAPLIBRE_KEY;
 
     useEffect(() => {
         if (map.current && maplibre_key) return;

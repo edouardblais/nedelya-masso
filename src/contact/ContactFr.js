@@ -15,7 +15,7 @@ const ContactFr = () => {
     const mapContainer = useRef();
     const map = useRef(null);
 
-    const maplibre_key = process.env.MAPLIBRE_KEY;
+    const maplibre_key = process.env.REACT_APP_MAPLIBRE_KEY;
 
     useEffect(() => {
         if (map.current && maplibre_key) return;
