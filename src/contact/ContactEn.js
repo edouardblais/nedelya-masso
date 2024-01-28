@@ -18,7 +18,7 @@ const ContactEn = () => {
     const maplibre_key = process.env.MAPLIBRE_KEY;
 
     useEffect(() => {
-        if (map.current) return;
+        if (map.current && maplibre_key) return;
         map.current = new maplibregl.Map({
             container: mapContainer.current,
             style: `https://api.maptiler.com/maps/dataviz/style.json?key=${maplibre_key}`,
@@ -44,7 +44,7 @@ const ContactEn = () => {
                     .addTo(map.current);
             })
         })
-    })
+    }, [maplibre_key])
 
     const toggleSidebar = () => {
         if (displaySidebar) {
