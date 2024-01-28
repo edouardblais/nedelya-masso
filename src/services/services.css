@@ -65,6 +65,13 @@
     color:rgb(207, 109, 4);
 }
 
+.prices-specs-text {
+    margin:0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:rgb(207, 109, 4);
+}
+
 .insurance-text {
     margin:0;
     font-size: 1.7rem;

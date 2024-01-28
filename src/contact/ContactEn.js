@@ -7,7 +7,6 @@ import expandIcon from '../img/expand-icon.svg';
 import closeIcon from '../img/close-icon.svg';
 import blocshoplogo from '../img/blocshoplogo.jpeg';
 import cafebloclogo from '../img/cafebloclogo.jpeg';
-import hooklogo from '../img/hooklogo.png';
 
 const ContactEn = () => {
 
@@ -37,9 +36,6 @@ const ContactEn = () => {
                 } else if (marker.properties.message === 'Cafe Bloc') {
                     el.style.backgroundImage =
                     `url(${cafebloclogo})`
-                } else if (marker.properties.message === 'Hook Bouldering') {
-                    el.style.backgroundImage =
-                    `url(${hooklogo})`
                 }
                 el.style.width = marker.properties.iconSize[0] + 'px';
                 el.style.height = marker.properties.iconSize[1] + 'px';
@@ -74,14 +70,6 @@ const ContactEn = () => {
         })
     }
 
-    const goToHook = () => {
-        map.current.flyTo({
-            center:[-73.33663, 45.57784],
-            essential:true,
-            zoom:18
-        })
-    }
-
     return (
         <main className='contact-box'>
             <div ref={mapContainer} style={{width:'100%', height:'100%'}}/>
@@ -107,15 +95,6 @@ const ContactEn = () => {
                     <div className='contact-btn-box'> 
                         <button className='home-btn' onClick={goToCB} type='button'>Go to Cafe Bloc!</button>
                         <a className='home-btn' href='https://www.gorendezvous.com/fr/cafebloc/'>Book Now!</a>
-                    </div>
-                </div>
-                <div className='contact-text-box'>
-                    <h2 className='reserv-title'>Hook Bouldering</h2>
-                    <p className='contact-text'>2101 Nobel St, Sainte-Julie, Quebec J3E 1Z8</p>
-                    <p className='contact-text'>(450) 922-7734</p>
-                    <div className='contact-btn-box'> 
-                        <button className='home-btn' onClick={goToHook} type='button'>Go to Hook!</button>
-                        <a className='home-btn' href='https://www.hookbouldering.com/services'>Book Now!</a>
                     </div>
                 </div>
             </div>

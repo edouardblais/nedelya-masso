@@ -25,8 +25,8 @@ const About = () => {
                     <p className='about-text'>
                         Her thirst for knowledge and her desire to provide optimal treatments to her clients have
                         pushed her to accumulate more than 300 hours of continuing education at the Kiné-Concept-Guijek massage therapy institute.
-                        Today, Nedelya combines her two great passions by practicing in three climbing centers in the Montreal area,
-                        namely Bloc Shop, Café Bloc and Hook Bouldering.
+                        Today, Nedelya combines her two great passions by practicing in two climbing centers in the Montreal area,
+                        namely Bloc Shop and Café Bloc.
                     </p>
                     <div className='image-box'>
                         <img src={Reseau} alt='Member of Masso Network' className='reseau-image'/>

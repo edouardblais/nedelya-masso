@@ -22,18 +22,7 @@ const MarkersInfo = {
                 'type': 'Point',
                 'coordinates': [-73.56294, 45.50973]
             }
-        },
-        {
-            'type': 'Feature',
-            'properties': {
-                'message': 'Hook Bouldering',
-                'iconSize': [50, 50]
-            },
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [-73.33663, 45.57784]
-            }
-        },
+        }
     ]
 };
 
