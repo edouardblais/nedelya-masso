@@ -15,7 +15,7 @@ const TopNav = () => {
         if (location.pathname.startsWith('/en')) {
             setEnglish(true)
         }
-    }, [])
+    }, [location])
   
     const goToHome = () => {
         if (english) {
