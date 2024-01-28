@@ -15,13 +15,13 @@ const ContactEn = () => {
     const mapContainer = useRef();
     const map = useRef(null);
 
-    const apiKey = 'S9yOwV7j5Gsty9kH1t1t';
+    const maplibre = 'S9yOwV7j5Gsty9kH1t1t';
 
     useEffect(() => {
         if (map.current) return;
         map.current = new maplibregl.Map({
             container: mapContainer.current,
-            style: `https://api.maptiler.com/maps/dataviz/style.json?key=${apiKey}`,
+            style: `https://api.maptiler.com/maps/dataviz/style.json?key=${maplibre}`,
             center: [-73.5674, 45.5019],
             zoom:10,
             attributionControl:false
