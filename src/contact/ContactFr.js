@@ -6,7 +6,7 @@ import markersInfo from './MarkersInfo';
 import expandIcon from '../img/expand-icon.svg';
 import closeIcon from '../img/close-icon.svg';
 import blocshoplogo from '../img/blocshoplogo.jpeg';
-import cafebloclogo from '../img/cafebloclogo.jpeg';
+// import cafebloclogo from '../img/cafebloclogo.jpeg';
 
 const ContactFr = () => {
 
@@ -33,10 +33,11 @@ const ContactFr = () => {
                 if (marker.properties.message === 'Bloc Shop') {
                     el.style.backgroundImage =
                     `url(${blocshoplogo})`
-                } else if (marker.properties.message === 'Cafe Bloc') {
-                    el.style.backgroundImage =
-                    `url(${cafebloclogo})`
                 }
+                // } else if (marker.properties.message === 'Cafe Bloc') {
+                //     el.style.backgroundImage =
+                //     `url(${cafebloclogo})`
+                // }
                 el.style.width = marker.properties.iconSize[0] + 'px';
                 el.style.height = marker.properties.iconSize[1] + 'px';
                 new maplibregl.Marker(el)
@@ -62,13 +63,13 @@ const ContactFr = () => {
         })
     }
 
-    const goToCB = () => {
-        map.current.flyTo({
-            center:[-73.56294, 45.50973],
-            essential:true,
-            zoom:18
-        })
-    }
+    // const goToCB = () => {
+    //     map.current.flyTo({
+    //         center:[-73.56294, 45.50973],
+    //         essential:true,
+    //         zoom:18
+    //     })
+    // }
 
     return (
         <main className='contact-box'>
@@ -88,7 +89,7 @@ const ContactFr = () => {
                         <a className='home-btn' href='https://www.gorendezvous.com/nedelyamassokine'>Réserver!</a>
                     </div>
                 </div>
-                <div className='contact-text-box'>
+                {/* <div className='contact-text-box'>
                     <h2 className='reserv-title'>Café Bloc</h2>
                     <p className='contact-text'>1209-1211 Boul. Saint-Laurent, Montréal, Québec H2X 2S6</p>
                     <p className='contact-text'>(438) 794-3874</p>
@@ -96,7 +97,7 @@ const ContactFr = () => {
                         <button className='home-btn' onClick={goToCB} type='button'>Aller au Café Bloc!</button>
                         <a className='home-btn' href='https://www.gorendezvous.com/fr/cafebloc/'>Réserver!</a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </main>
     )
